@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from Public.Decorator import *
+from PageObject.VivaVideo import home
 
 
 class edit_page(BasePage):
@@ -60,6 +61,7 @@ class edit_page(BasePage):
         elif value == '直接退出':
             self.d(resourceId="com.quvideo.xiaoying:id/ll_just_exit").click()
             self.d.wait_activity(activity="com.quvideo.xiaoying.MainActivity",timeout=5)
+        home.home_Page().close_ad_popup()
 
     @teststep
     def close_pop_dialog(self):

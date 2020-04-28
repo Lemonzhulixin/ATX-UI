@@ -6,10 +6,11 @@ from Public.Decorator import *
 import unittest
 from Public.Test_data import *
 
-apk = get_apk(url='http://www1.xiaoying.co/Android/vivavideo/install.html',keyword='XiaoYing_V8')
+# apk = get_apk(url='http://www1.xiaoying.co/Android/vivavideo/install.html',keyword='XiaoYing_V8')
 # download_apk(apk)
 # apk ='/Users/zhulixin/Desktop/UI/TestCase/VivaVideo/apk/XiaoYing_V8.1.5_1-Abroad-Bv8.1.5-xiaoyingtest-20200420_145037.apk'
 pkg_name = ReadConfig().get_pkg_name(key='XY')
+apk = get_apk(url=ReadConfig().get_APP_URL(),keyword=ReadConfig().get_APP_URL_KEY('XY'))
 
 class app_init(unittest.TestCase, BasePage):
     '''安装最新包'''

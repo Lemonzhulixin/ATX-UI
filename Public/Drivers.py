@@ -1,12 +1,3 @@
-#  -*- coding: utf-8 -*-
-#  /usr/local/bin/python
-#  @Time: 2020/4/16 5:29 PM
-#  @Author: lemon_zhulixin
-#  @Email: zhulixin@live.com
-#  @Project: UI
-#  @File: __init__.py.py
-
-
 import time
 import os
 import zipfile
@@ -24,6 +15,47 @@ from Public.chromedriver import ChromeDriver
 from Public.Test_data import *
 from Public.Report import *
 from Public.mysql_operation import *
+from Public.ATX_Server import ATX_Server
+from Public.atxserver2 import atxserver2
+
+
+def check_devives():
+    # 根据method 获取android设备
+    method = ReadConfig().get_method().strip()
+    if method == 'SERVER':
+        # get ATX-Server Online devices
+        # devices = ATX_Server(ReadConfig().get_server_url()).online_devices()
+        print('Get available online devices from ATX-Server...')
+        devices = get_online_devices(ATX_Server(ReadConfig().get_server_url()).online_devices())
+        print('\nThere has %s online devices in ATX-Server' % len(devices))
+
+    elif method == 'SERVER2':
+        # get atxserver2 Online devices
+        print('Get available online devices from atxserver2...')
+        devices = atxserver2_online_devices(atxserver2(ReadConfig().get_server_url()).present_android_devices())
+        print('\nThere has %s online devices in atxserver2' % len(devices))
+
+    elif method == 'UDID':
+        print('Get available UDID devices %s from atxserver2...' % ReadConfig().get_server_udid())
+        devices = atxserver2_online_devices(atxserver2(ReadConfig().get_server_url()).present_udid_devices())
+        print('\nThere has %s available udid devices in atxserver2' % len(devices))
+
+    elif method == 'IP':
+        # get  devices from config devices list
+        print('Get available IP devices %s from config... ' % ReadConfig().get_devices_ip())
+        devices = get_devices()
+        print('\nThere has %s  devices alive in config IP list' % len(devices))
+
+    elif method == 'USB':
+        # get  devices connected PC with USB
+        print('Get available USB devices connected on PC... ')
+        devices = connect_devices()
+        print('\nThere has %s  USB devices alive ' % len(devices))
+
+    else:
+        raise Exception('Config.ini method illegal:method =%s' % method)
+
+    return devices
 
 
 class Drivers:
@@ -65,34 +97,19 @@ class Drivers:
             time.sleep(2)
             base_page.d.pull('/sdcard/logcat.log', os.path.join(path.get_path(), 'logcat.log'))
             time.sleep(5)
-
+            if ReadConfig().get_method().strip() in ["UDID", "SERVER2"]:
+                log.i('release device %s ' % run.get_device()['serial'])
+                atxserver2(ReadConfig().get_server_url()).release_device(run.get_device()['serial'])
+            else:
+                pass
         except AssertionError as e:
             log.e('AssertionError, %s' % e)
 
     def run(self, cases, apk, upload=True):
 
         start_time = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
-        # 根据method 获取android设备
-        method = ReadConfig().get_method().strip()
-        if method == 'SERVER':
-            # get ATX-Server Online devices
-            # devices = ATX_Server(ReadConfig().get_server_url()).online_devices()
-            print('Checking available online devices from ATX-Server...')
-            devices = get_online_devices()
-            print('\nThere has %s alive devices in ATX-Server' % len(devices))
-        elif method == 'IP':
-            # get  devices from config devices list
-            print('Checking available IP devices from config... ')
-            devices = get_devices()
-            print('\nThere has %s  devices alive in config IP list' % len(devices))
-        elif method == 'USB':
-            # get  devices connected PC with USB
-            print('Checking available USB devices connected on PC... ')
-            devices = connect_devices()
-            print('\nThere has %s  USB devices alive ' % len(devices))
-
-        else:
-            raise Exception('Config.ini method illegal:method =%s' % method)
+        build_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+        devices = check_devives()
 
         if not devices:
             print('There is no device found,test over.')
@@ -122,11 +139,12 @@ class Drivers:
         end_time = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
         #  Generate statistics report  生成统计测试报告 将所有设备的报告在一个HTML中展示
 
-        apk_info = get_apk_info(apk['apk_path'])# 获取install apk信息
-        title = "ApkUrl: %s<br />PackageName: %s<br /> Version: V%s<br />VersionCode: %s" % (
-            apk['html'], apk_info["package"], apk_info["versionName"], apk_info["versionCode"])
+        apk_info = get_apk_info(apk['apk_path'])  # 获取apk信息
+        title = "StartTime: %s<br />ApkUrl: %s<br />PackageName: %s<br /> Version: V%s<br />VersionCode: %s" % (
+            build_time, apk['html'], apk_info["package"], apk_info["versionName"], apk_info["versionCode"])
 
         runs_info = create_statistics_report(runs, title=title)
+
         if upload:
             # 上传报告信息
             for res in runs_info:
@@ -170,4 +188,4 @@ class Drivers:
             pass
 
         # 将报告文件剪切到新的目录下
-        backup_report(start_time)
+        # backup_report(start_time)

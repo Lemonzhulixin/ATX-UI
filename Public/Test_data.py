@@ -113,6 +113,8 @@ def get_apk_activity(path):
 
 
 if __name__ == '__main__':
-   apk = get_apk(url='http://www1.xiaoying.co/Android/vivavideo/install.html',keyword='XiaoYing_V8')
-   print(apk['apk_path'])
+   # apk = get_apk(url='http://www1.xiaoying.co/Android/vivavideo/install.html',keyword='XiaoYing_V8')
+   # print(apk['apk_path'])
+   apk = get_apk(url=ReadConfig().get_APP_URL(), keyword=ReadConfig().get_APP_URL_KEY('XY'))
+   print(apk)
 

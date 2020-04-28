@@ -3,7 +3,7 @@
 
 
 from Public.Decorator import *
-from PageObject.VivaVideo import edit
+from PageObject.VivaVideo import edit, home
 from Public.Log import Log
 log = Log()
 
@@ -19,6 +19,7 @@ class gallery_page(BasePage):
     @teststep
     def gallery_back(self):
         self.d(resourceId="com.quvideo.xiaoying:id/btn_back").click()
+        home.home_Page().close_ad_popup()
 
 
     @teststep

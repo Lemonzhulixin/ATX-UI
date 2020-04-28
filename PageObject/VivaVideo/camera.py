@@ -5,6 +5,7 @@
 from Public.Decorator import *
 from Public.Log import Log
 log = Log()
+from PageObject.VivaVideo import home
 
 
 class camera_page(BasePage):
@@ -12,6 +13,7 @@ class camera_page(BasePage):
     def click_close_btn(self):
         log.i('点击关闭按钮')
         self.d(resourceId="com.quvideo.xiaoying:id/cam_btn_cancel").click()
+        home.home_Page().close_ad_popup()
 
     @teststep
     def leave_select(self, leave=True):

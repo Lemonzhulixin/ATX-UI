@@ -671,3 +671,12 @@
 	at fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:192)
 	at java.lang.Thread.run(Thread.java:784)
 , method: swipe
+2020-04-28 19:43:38,675 - udid - INFO - --> home_Page.close_popup
+2020-04-28 19:43:38,678 - udid - INFO - 关闭首页家庭政策弹窗
+2020-04-28 19:44:04,324 - udid - INFO - --> home_Page.close_ad_popup
+2020-04-28 19:44:04,325 - udid - INFO - 关闭广告弹窗 
+2020-04-28 19:51:12,419 - udid - INFO - --> home_Page.close_popup
+2020-04-28 19:51:12,419 - udid - INFO - 关闭首页家庭政策弹窗
+2020-04-28 19:51:15,842 - udid - INFO - 弹窗未弹出或者已消除
+2020-04-28 19:51:25,801 - udid - INFO - --> home_Page.close_ad_popup
+2020-04-28 19:51:25,802 - udid - INFO - 关闭广告弹窗 

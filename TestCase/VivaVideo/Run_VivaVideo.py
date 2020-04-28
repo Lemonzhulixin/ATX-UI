@@ -26,10 +26,10 @@ if __name__ == '__main__':
 
     cs = CaseStrategy()
     cases = cs.collect_cases(suite=False)
-    # 调试用
-    # apk = 'apk/XiaoYing_V8.1.5_1-Abroad-Bv8.1.5-xiaoyingtest-20200420_145037.apk'
-
-    #从install页面下载最新版本的测试app
-    apk = get_apk(url='http://www1.xiaoying.co/Android/vivavideo/install.html',keyword='XiaoYing_V8')
+    # 从install页面下载最新版本的测试app
+    apk = get_apk(url=ReadConfig().get_APP_URL(), keyword=ReadConfig().get_APP_URL_KEY('XY'))
     download_apk(apk)
+
+    # 调试用
+    # apk ='apk/XiaoYing_V8.1.5_1-Abroad-Bv8.1.5-xiaoyingtest-20200420_145037.apk'
     Drivers().run(cases, apk, upload=False)

@@ -33,7 +33,7 @@ if __name__ == '__main__':
     suite.addTest(test_init.app_init('test_03_camera'))
 
     # 从install页面下载最新版本的测试app
-    apk = get_apk(url='http://www1.xiaoying.co/Android/vivavideo/install.html', keyword='XiaoYing_V8')
+    apk = get_apk(url=ReadConfig().get_APP_URL(), keyword=ReadConfig().get_APP_URL_KEY('XY'))
     download_apk(apk)
 
     # 调试用

@@ -29,9 +29,17 @@ class ReadConfig:
         value = self.cf.get("DEVICES", "server")
         return value
 
+    def get_server_udid(self):
+        value = self.cf.get("DEVICES", "udid")
+        return value.split('|')
+
     def get_devices_ip(self):
         value = self.cf.get("DEVICES", "IP")
         return value.split('|')
+
+    def get_server_token(self):
+        value = self.cf.get("DEVICES", "token")
+        return value
 
     def get_apk_url(self):
         value = self.cf.get("APP", "apk_url")
@@ -54,6 +62,24 @@ class ReadConfig:
         elif key == 'VC':
             value = self.cf.get("APP", "pkg_name_TP")
             return value
+
+    def get_APP_URL(self):
+        value = self.cf.get("APP", "URL")
+        return value
+
+    def get_APP_URL_KEY(self, key):
+        if key == 'XY':
+            value = self.cf.get("APP", "KEY_XY")
+            return value
+        elif key =='SP':
+             value = self.cf.get("APP", "KEY_SP")
+             return value
+        elif key == 'TP':
+             value = self.cf.get("APP", "KEY_TP")
+             return value
+        elif key == 'VC':
+             value = self.cf.get("APP", "KEY_VC")
+             return value
 
     def get_testdata(self, name):
         value = self.cf.get("TESTDATA", name)

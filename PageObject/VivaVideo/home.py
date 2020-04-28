@@ -34,9 +34,15 @@ class home_Page(BasePage):
     def close_popup(self):
         log.i('关闭首页家庭政策弹窗')
         try:
-            self.d(resourceId="com.quvideo.xiaoying:id/iv_close").click()
-        except TimeoutError:
+            self.d(resourceId="com.quvideo.xiaoying:id/iv_close").click(3)
+        except:
             log.i('弹窗未弹出或者已消除')
+            pass
+
+    @teststep
+    def close_ad_popup(self,timeout = 3):
+        log.i('关闭广告弹窗 ')
+        self.d(resourceId="com.quvideo.xiaoying:id/tt_insert_dislike_icon_img").click_exists(timeout=timeout)
 
     @teststep
     def click_template_btn(self):
@@ -158,6 +164,6 @@ if __name__ == '__main__':
     from Public.Log import Log
     Log().set_logger('udid', './log.log')
     BasePage().set_driver(None)
-    home_Page().close_popup()
+    home_Page().close_ad_popup()
 
 

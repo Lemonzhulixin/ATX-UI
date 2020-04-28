@@ -39,6 +39,7 @@ class sec_fun(unittest.TestCase, BasePage):
         self.assertTrue(edit.edit_page().is_mixer_page())
         self.screenshot()
         self.d.press("back")
+        home.home_Page().close_ad_popup()
 
     def test_03_sec_fun_mosaic(self):
         """马赛克跳转"""
@@ -57,6 +58,7 @@ class sec_fun(unittest.TestCase, BasePage):
         time.sleep(5)
         self.screenshot()
         self.d.press("back")
+        home.home_Page().close_ad_popup()
 
     def test_05_sec_fun_capture(self):
         """拍摄跳转"""
