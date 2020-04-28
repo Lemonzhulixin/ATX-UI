@@ -1,0 +1,595 @@
+2020-04-27 17:04:31,740 - EML-AL00 - INFO - udid: CLB7N18808001922-24:2e:02:47:b3:ca-EML-AL00
+2020-04-27 17:04:31,896 - EML-AL00 - INFO - set fastinput ime
+2020-04-27 17:04:35,143 - EML-AL00 - DEBUG - --> app_init.test_01_install
+2020-04-27 17:04:55,069 - EML-AL00 - DEBUG - <-- app_init.test_01_install, Success
+
+2020-04-27 17:04:55,070 - EML-AL00 - DEBUG - --> app_init.test_02_start
+2020-04-27 17:04:58,679 - EML-AL00 - INFO - --> home_Page.close_popup
+2020-04-27 17:04:58,682 - EML-AL00 - INFO - 关闭首页家庭政策弹窗
+2020-04-27 17:05:10,117 - EML-AL00 - INFO - --> home_Page.click_home_btn
+2020-04-27 17:05:10,117 - EML-AL00 - INFO - 点击底部剪辑按钮
+2020-04-27 17:05:12,063 - EML-AL00 - INFO - --> gallery_page.gallery_back
+2020-04-27 17:05:15,692 - EML-AL00 - DEBUG - <-- app_init.test_02_start, Success
+
+2020-04-27 17:05:15,694 - EML-AL00 - DEBUG - --> app_init.test_03_camera
+2020-04-27 17:05:17,698 - EML-AL00 - INFO - --> home_Page.click_camera_btn
+2020-04-27 17:05:17,699 - EML-AL00 - INFO - 点击拍摄按钮
+2020-04-27 17:05:26,607 - EML-AL00 - INFO - --> camera_page.click_close_btn
+2020-04-27 17:05:26,607 - EML-AL00 - INFO - 点击关闭按钮
+2020-04-27 17:05:29,122 - EML-AL00 - DEBUG - <-- app_init.test_03_camera, Success
+
+2020-04-27 17:05:31,632 - EML-AL00 - DEBUG - --> QQ_login.test_QQlogin
+2020-04-27 17:05:31,633 - EML-AL00 - INFO - --> home_Page.click_me_btn
+2020-04-27 17:05:31,633 - EML-AL00 - INFO - 点击底部我按钮
+2020-04-27 17:05:34,476 - EML-AL00 - INFO - --> login_page.click_login_btn
+2020-04-27 17:05:34,477 - EML-AL00 - INFO - 点击登录tab
+2020-04-27 17:05:35,395 - EML-AL00 - INFO - --> login_page.login_QQ
+2020-04-27 17:05:35,396 - EML-AL00 - INFO - QQ登录
+2020-04-27 17:05:39,914 - EML-AL00 - INFO - 完成QQ授权
+2020-04-27 17:05:43,980 - EML-AL00 - INFO - --> login_page.is_login_success
+2020-04-27 17:05:43,981 - EML-AL00 - INFO - 检查是否登录成功
+2020-04-27 17:05:44,527 - EML-AL00 - INFO - 登录状态： status=True
+2020-04-27 17:05:44,992 - EML-AL00 - INFO - --> login_page.logout
+2020-04-27 17:05:44,993 - EML-AL00 - INFO - 点击设置按钮
+2020-04-27 17:05:46,456 - EML-AL00 - INFO - 向上滑动直到出现'退出当前账号'
+2020-04-27 17:05:47,201 - EML-AL00 - INFO - swipe up
+2020-04-27 17:05:48,827 - EML-AL00 - INFO - swipe up
+2020-04-27 17:05:50,476 - EML-AL00 - INFO - 点击'退出当前账号'
+2020-04-27 17:05:51,065 - EML-AL00 - INFO - --> login_page.is_logout_success
+2020-04-27 17:05:51,065 - EML-AL00 - INFO - 检查是否退出成功
+2020-04-27 17:05:54,627 - EML-AL00 - INFO - 退出状态： status=True
+2020-04-27 17:05:54,627 - EML-AL00 - DEBUG -   <-- login_page.is_logout_success, Success
+2020-04-27 17:05:54,628 - EML-AL00 - DEBUG - <-- QQ_login.test_QQlogin, Success
+
+2020-04-27 17:05:55,111 - EML-AL00 - DEBUG - --> WB_login.test_WBlogin
+2020-04-27 17:05:55,112 - EML-AL00 - INFO - --> home_Page.click_me_btn
+2020-04-27 17:05:55,112 - EML-AL00 - INFO - 点击底部我按钮
+2020-04-27 17:05:56,852 - EML-AL00 - INFO - --> login_page.click_login_btn
+2020-04-27 17:05:56,853 - EML-AL00 - INFO - 点击登录tab
+2020-04-27 17:05:57,681 - EML-AL00 - INFO - --> login_page.login_WB
+2020-04-27 17:05:57,682 - EML-AL00 - INFO - 微博登录
+2020-04-27 17:05:58,663 - EML-AL00 - INFO - --> login_page.is_login_success
+2020-04-27 17:05:58,664 - EML-AL00 - INFO - 检查是否登录成功
+2020-04-27 17:06:02,453 - EML-AL00 - INFO - 登录状态： status=True
+2020-04-27 17:06:02,925 - EML-AL00 - INFO - --> login_page.logout
+2020-04-27 17:06:02,926 - EML-AL00 - INFO - 点击设置按钮
+2020-04-27 17:06:03,370 - EML-AL00 - INFO - 向上滑动直到出现'退出当前账号'
+2020-04-27 17:06:04,061 - EML-AL00 - INFO - swipe up
+2020-04-27 17:06:05,579 - EML-AL00 - INFO - swipe up
+2020-04-27 17:06:07,092 - EML-AL00 - INFO - 点击'退出当前账号'
+2020-04-27 17:06:07,548 - EML-AL00 - INFO - --> login_page.is_logout_success
+2020-04-27 17:06:07,549 - EML-AL00 - INFO - 检查是否退出成功
+2020-04-27 17:06:11,033 - EML-AL00 - INFO - 退出状态： status=True
+2020-04-27 17:06:11,035 - EML-AL00 - DEBUG -   <-- login_page.is_logout_success, Success
+2020-04-27 17:06:11,036 - EML-AL00 - DEBUG - <-- WB_login.test_WBlogin, Success
+
+2020-04-27 17:06:11,481 - EML-AL00 - DEBUG - --> first_fun.test_01_first_fun_edit
+2020-04-27 17:06:11,482 - EML-AL00 - INFO - --> home_Page.click_edit_btn
+2020-04-27 17:06:11,483 - EML-AL00 - INFO - 点击视频剪辑
+2020-04-27 17:06:13,033 - EML-AL00 - INFO - 立刻升级页面已消除
+2020-04-27 17:06:13,536 - EML-AL00 - INFO - --> gallery_page.is_gallery_page
+2020-04-27 17:06:14,297 - EML-AL00 - INFO - --> gallery_page.gallery_back
+2020-04-27 17:06:14,821 - EML-AL00 - DEBUG - <-- first_fun.test_01_first_fun_edit, Success
+
+2020-04-27 17:06:14,822 - EML-AL00 - DEBUG - --> first_fun.test_02_first_fun_mv
+2020-04-27 17:06:14,822 - EML-AL00 - INFO - --> home_Page.click_mv_btn
+2020-04-27 17:06:14,823 - EML-AL00 - INFO - 点击相册MV
+2020-04-27 17:06:15,922 - EML-AL00 - INFO - --> gallery_page.is_gallery_page
+2020-04-27 17:06:16,692 - EML-AL00 - INFO - --> gallery_page.gallery_back
+2020-04-27 17:06:17,215 - EML-AL00 - DEBUG - <-- first_fun.test_02_first_fun_mv, Success
+
+2020-04-27 17:06:17,216 - EML-AL00 - DEBUG - --> first_fun.test_03_first_fun_draft
+2020-04-27 17:06:17,217 - EML-AL00 - INFO - --> home_Page.click_draft_btn
+2020-04-27 17:06:17,217 - EML-AL00 - INFO - 点击草稿
+2020-04-27 17:06:19,258 - EML-AL00 - INFO - --> home_Page.click_home_btn
+2020-04-27 17:06:19,259 - EML-AL00 - INFO - 点击底部剪辑按钮
+2020-04-27 17:06:19,801 - EML-AL00 - DEBUG - <-- first_fun.test_03_first_fun_draft, Success
+
+2020-04-27 17:06:19,802 - EML-AL00 - DEBUG - --> first_fun.test_04_first_fun_material
+2020-04-27 17:06:19,803 - EML-AL00 - INFO - --> home_Page.click_home_more
+2020-04-27 17:06:19,803 - EML-AL00 - INFO - 点击素材中心查看更多按钮
+2020-04-27 17:06:21,545 - EML-AL00 - INFO - --> material_page.is_material_page
+2020-04-27 17:06:21,653 - EML-AL00 - INFO - 判断是否在素材中心页面 status=True
+2020-04-27 17:06:22,072 - EML-AL00 - INFO - --> material_page.material_back
+2020-04-27 17:06:22,485 - EML-AL00 - DEBUG - <-- first_fun.test_04_first_fun_material, Success
+
+2020-04-27 17:06:22,486 - EML-AL00 - DEBUG - --> first_fun.test_05_first_fun_vip
+2020-04-27 17:06:22,486 - EML-AL00 - INFO - --> home_Page.click_vip_btn
+2020-04-27 17:06:22,487 - EML-AL00 - INFO - 点击VIP按钮
+2020-04-27 17:06:23,497 - EML-AL00 - INFO - --> vip_page.is_vip_page
+2020-04-27 17:06:23,498 - EML-AL00 - INFO - 判断是否在VIP页面
+2020-04-27 17:06:23,701 - EML-AL00 - INFO - status=True
+2020-04-27 17:06:24,159 - EML-AL00 - INFO - --> vip_page.vip_back
+2020-04-27 17:06:24,160 - EML-AL00 - INFO - 从VIP页面返回首页
+2020-04-27 17:06:24,613 - EML-AL00 - DEBUG - <-- first_fun.test_05_first_fun_vip, Success
+
+2020-04-27 17:06:24,987 - EML-AL00 - DEBUG - --> sec_fun.test_01_sec_fun_addText
+2020-04-27 17:06:26,991 - EML-AL00 - INFO - --> home_Page.click_sec_addText
+2020-04-27 17:06:26,992 - EML-AL00 - INFO - 点击次要功能位加字幕
+2020-04-27 17:06:27,482 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:06:27,984 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:06:29,696 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:06:31,129 - EML-AL00 - INFO - --> edit_page.is_addText_page
+2020-04-27 17:06:32,701 - EML-AL00 - INFO - 是否在添加字幕页面，status=True
+2020-04-27 17:06:33,236 - EML-AL00 - INFO - --> edit_page.edit_back
+2020-04-27 17:06:36,766 - EML-AL00 - INFO - 当前在添加文本&特效页面，需要再次返回
+2020-04-27 17:06:41,127 - EML-AL00 - DEBUG - <-- sec_fun.test_01_sec_fun_addText, Success
+
+2020-04-27 17:06:41,128 - EML-AL00 - DEBUG - --> sec_fun.test_02_sec_fun_mixer
+2020-04-27 17:06:41,129 - EML-AL00 - INFO - --> home_Page.click_sec_Mixer
+2020-04-27 17:06:41,130 - EML-AL00 - INFO - 点击次要功能位画中画
+2020-04-27 17:06:42,126 - EML-AL00 - INFO - --> edit_page.is_mixer_page
+2020-04-27 17:06:42,487 - EML-AL00 - INFO - 是否在添加画中画页面，status=True
+2020-04-27 17:06:43,066 - EML-AL00 - DEBUG - <-- sec_fun.test_02_sec_fun_mixer, Success
+
+2020-04-27 17:06:43,567 - EML-AL00 - INFO - --> home_Page.click_sec_Mosaic
+2020-04-27 17:06:43,568 - EML-AL00 - INFO - 点击次要功能位马赛克
+2020-04-27 17:06:44,008 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:06:44,510 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:06:46,221 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:06:47,638 - EML-AL00 - INFO - --> edit_page.is_maosaic_page
+2020-04-27 17:06:48,871 - EML-AL00 - INFO - 是否在添加马赛克页面，status=True
+2020-04-27 17:06:49,481 - EML-AL00 - INFO - --> edit_page.edit_back
+2020-04-27 17:06:51,419 - EML-AL00 - INFO - --> home_Page.click_sec_FAQ
+2020-04-27 17:06:51,420 - EML-AL00 - INFO - 点击次要功能位新手教程
+2020-04-27 17:06:57,543 - EML-AL00 - INFO - --> home_Page.click_camera_btn
+2020-04-27 17:06:57,543 - EML-AL00 - INFO - 点击拍摄按钮
+2020-04-27 17:07:06,136 - EML-AL00 - INFO - --> camera_page.click_close_btn
+2020-04-27 17:07:06,137 - EML-AL00 - INFO - 点击关闭按钮
+2020-04-27 17:07:06,560 - EML-AL00 - INFO - --> home_Page.click_sec_musicExtraction
+2020-04-27 17:07:06,561 - EML-AL00 - INFO - 点击次要功能位音频提取
+2020-04-27 17:07:08,172 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:07:08,674 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:07:09,052 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:07:10,475 - EML-AL00 - INFO - --> edit_page.is_musicExitraction_page
+2020-04-27 17:07:10,568 - EML-AL00 - INFO - 是否在音频提取页面，status=True
+2020-04-27 17:07:11,183 - EML-AL00 - INFO - --> gallery_page.gallery_back
+2020-04-27 17:07:12,093 - EML-AL00 - DEBUG - --> banner.test_01_template_banner
+2020-04-27 17:07:12,094 - EML-AL00 - INFO - --> home_Page.click_template_btn
+2020-04-27 17:07:12,094 - EML-AL00 - INFO - 点击底部拍同款按钮
+2020-04-27 17:07:14,613 - EML-AL00 - INFO - --> template_Page.is_template_page
+2020-04-27 17:07:14,874 - EML-AL00 - INFO - 是否在拍同款页面，status=True
+2020-04-27 17:07:15,328 - EML-AL00 - INFO - --> template_Page.click_template_tab
+2020-04-27 17:07:15,329 - EML-AL00 - INFO - 点击模版tab
+2020-04-27 17:07:16,305 - EML-AL00 - INFO - --> template_Page.swipe_template_banner
+2020-04-27 17:07:16,305 - EML-AL00 - INFO - 向左滑动banner
+2020-04-27 17:07:16,306 - EML-AL00 - INFO - swipe left
+2020-04-27 17:07:18,172 - EML-AL00 - INFO - --> template_Page.click_template_banner
+2020-04-27 17:07:18,173 - EML-AL00 - INFO - 点击模版tab下banner
+2020-04-27 17:07:20,672 - EML-AL00 - INFO - --> template_Page.banner_back
+2020-04-27 17:07:20,673 - EML-AL00 - INFO - 从banner跳转后的页面返回
+2020-04-27 17:07:21,130 - EML-AL00 - INFO - 当前是跳转的素材banner,需要再次back返回
+2020-04-27 17:07:21,247 - EML-AL00 - DEBUG -   <-- template_Page.banner_back, Success
+2020-04-27 17:07:21,248 - EML-AL00 - INFO - --> template_Page.swipe_template_banner
+2020-04-27 17:07:21,248 - EML-AL00 - INFO - 向左滑动banner
+2020-04-27 17:07:21,249 - EML-AL00 - INFO - swipe left
+2020-04-27 17:07:23,124 - EML-AL00 - INFO - --> template_Page.click_template_banner
+2020-04-27 17:07:23,125 - EML-AL00 - INFO - 点击模版tab下banner
+2020-04-27 17:07:25,603 - EML-AL00 - INFO - --> template_Page.banner_back
+2020-04-27 17:07:25,603 - EML-AL00 - INFO - 从banner跳转后的页面返回
+2020-04-27 17:07:26,074 - EML-AL00 - DEBUG -   <-- template_Page.banner_back, Success
+2020-04-27 17:07:26,074 - EML-AL00 - INFO - --> template_Page.swipe_template_banner
+2020-04-27 17:07:26,075 - EML-AL00 - INFO - 向左滑动banner
+2020-04-27 17:07:26,075 - EML-AL00 - INFO - swipe left
+2020-04-27 17:07:28,003 - EML-AL00 - INFO - --> template_Page.click_template_banner
+2020-04-27 17:07:28,004 - EML-AL00 - INFO - 点击模版tab下banner
+2020-04-27 17:07:30,494 - EML-AL00 - INFO - --> template_Page.banner_back
+2020-04-27 17:07:30,494 - EML-AL00 - INFO - 从banner跳转后的页面返回
+2020-04-27 17:07:31,036 - EML-AL00 - INFO - 当前是跳转的素材banner,需要再次back返回
+2020-04-27 17:07:31,159 - EML-AL00 - DEBUG -   <-- template_Page.banner_back, Success
+2020-04-27 17:07:31,159 - EML-AL00 - INFO - --> template_Page.swipe_template_banner
+2020-04-27 17:07:31,159 - EML-AL00 - INFO - 向左滑动banner
+2020-04-27 17:07:31,160 - EML-AL00 - INFO - swipe left
+2020-04-27 17:07:32,982 - EML-AL00 - INFO - --> template_Page.click_template_banner
+2020-04-27 17:07:32,983 - EML-AL00 - INFO - 点击模版tab下banner
+2020-04-27 17:07:35,487 - EML-AL00 - INFO - --> template_Page.banner_back
+2020-04-27 17:07:35,488 - EML-AL00 - INFO - 从banner跳转后的页面返回
+2020-04-27 17:07:35,988 - EML-AL00 - DEBUG -   <-- template_Page.banner_back, Success
+2020-04-27 17:07:35,989 - EML-AL00 - INFO - --> template_Page.swipe_template_banner
+2020-04-27 17:07:35,989 - EML-AL00 - INFO - 向左滑动banner
+2020-04-27 17:07:35,990 - EML-AL00 - INFO - swipe left
+2020-04-27 17:07:37,842 - EML-AL00 - INFO - --> template_Page.click_template_banner
+2020-04-27 17:07:37,843 - EML-AL00 - INFO - 点击模版tab下banner
+2020-04-27 17:07:40,311 - EML-AL00 - INFO - --> template_Page.banner_back
+2020-04-27 17:07:40,312 - EML-AL00 - INFO - 从banner跳转后的页面返回
+2020-04-27 17:07:40,628 - EML-AL00 - DEBUG -   <-- template_Page.banner_back, Success
+2020-04-27 17:07:40,628 - EML-AL00 - DEBUG - <-- banner.test_01_template_banner, Success
+
+2020-04-27 17:07:40,629 - EML-AL00 - DEBUG - --> banner.test_02_tutorials_banner
+2020-04-27 17:07:40,630 - EML-AL00 - INFO - --> template_Page.click_tutorials_tab
+2020-04-27 17:07:40,631 - EML-AL00 - INFO - 点击教程tab
+2020-04-27 17:07:42,824 - EML-AL00 - INFO - --> template_Page.click_tutorials_banner
+2020-04-27 17:07:42,825 - EML-AL00 - INFO - 点击教程热门分类下推荐banner
+2020-04-27 17:07:53,427 - EML-AL00 - DEBUG -   <-- template_Page.click_tutorials_banner, Success
+2020-04-27 17:07:53,428 - EML-AL00 - DEBUG - <-- banner.test_02_tutorials_banner, Success
+
+2020-04-27 17:07:53,429 - EML-AL00 - DEBUG - --> banner.test_03_material_banner
+2020-04-27 17:07:53,430 - EML-AL00 - INFO - --> home_Page.click_home_btn
+2020-04-27 17:07:53,430 - EML-AL00 - INFO - 点击底部剪辑按钮
+2020-04-27 17:07:54,613 - EML-AL00 - INFO - --> home_Page.click_home_more
+2020-04-27 17:07:54,615 - EML-AL00 - INFO - 点击素材中心查看更多按钮
+2020-04-27 17:07:55,138 - EML-AL00 - INFO - --> material_page.click_material_banner
+2020-04-27 17:07:55,139 - EML-AL00 - INFO - 点击banner
+2020-04-27 17:07:58,389 - EML-AL00 - DEBUG - <-- banner.test_03_material_banner, Success
+
+2020-04-27 17:07:58,822 - EML-AL00 - DEBUG - --> material_theme.test_01_theme_display
+2020-04-27 17:07:58,823 - EML-AL00 - INFO - --> material_page.select_material_type
+2020-04-27 17:07:58,823 - EML-AL00 - INFO - 点击主题
+2020-04-27 17:08:02,803 - EML-AL00 - DEBUG - <-- material_theme.test_01_theme_display, Success
+
+2020-04-27 17:08:02,804 - EML-AL00 - DEBUG - --> material_theme.test_02_theme_use
+2020-04-27 17:08:04,806 - EML-AL00 - INFO - --> material_page.click_material_cover
+2020-04-27 17:08:04,809 - EML-AL00 - INFO - 选择一个素材封面点击
+2020-04-27 17:08:05,731 - EML-AL00 - INFO - --> material_page.select_material_use
+2020-04-27 17:08:05,732 - EML-AL00 - INFO - 使用主题
+2020-04-27 17:08:09,188 - EML-AL00 - INFO - 当前主题已添加，直接去使用
+2020-04-27 17:08:10,657 - EML-AL00 - INFO - --> gallery_page.is_gallery_page
+2020-04-27 17:08:11,107 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:08:11,609 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:08:13,340 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:08:15,181 - EML-AL00 - INFO - --> edit_page.is_preview_page
+2020-04-27 17:08:15,568 - EML-AL00 - INFO - 是否在预览页面，status=True
+2020-04-27 17:08:16,195 - EML-AL00 - INFO - --> edit_page.close_pop_dialog
+2020-04-27 17:08:16,196 - EML-AL00 - INFO - 关闭新手引导
+2020-04-27 17:08:16,716 - EML-AL00 - INFO - 新手引导已关闭
+2020-04-27 17:08:18,719 - EML-AL00 - DEBUG - <-- material_theme.test_02_theme_use, Success
+
+2020-04-27 17:08:18,720 - EML-AL00 - DEBUG - --> material_theme.test_03_theme_material
+2020-04-27 17:08:20,721 - EML-AL00 - INFO - --> edit_page.stop_video_play
+2020-04-27 17:08:21,509 - EML-AL00 - INFO - --> edit_page.click_store_icon
+2020-04-27 17:08:21,510 - EML-AL00 - INFO - 进入素材商店
+2020-04-27 17:08:22,098 - EML-AL00 - INFO - --> material_page.material_theme_change
+2020-04-27 17:08:22,099 - EML-AL00 - INFO - 从素材中心切换到热门主题分类
+2020-04-27 17:08:24,104 - EML-AL00 - INFO - 点击落日飞车主题
+2020-04-27 17:08:26,113 - EML-AL00 - INFO - swipe up
+2020-04-27 17:08:28,696 - EML-AL00 - INFO - --> material_page.select_material_use
+2020-04-27 17:08:28,697 - EML-AL00 - INFO - 使用主题
+2020-04-27 17:08:32,019 - EML-AL00 - INFO - 当前主题已添加，直接去使用
+2020-04-27 17:08:35,817 - EML-AL00 - INFO - --> edit_page.stop_video_play
+2020-04-27 17:08:37,491 - EML-AL00 - INFO - --> edit_page.edit_finish
+2020-04-27 17:08:41,408 - EML-AL00 - DEBUG - <-- material_theme.test_03_theme_material, Success
+
+2020-04-27 17:08:41,409 - EML-AL00 - DEBUG - --> material_theme.test_04_theme_preview
+2020-04-27 17:08:42,409 - EML-AL00 - INFO - --> material_page.preview_theme_change
+2020-04-27 17:08:48,840 - EML-AL00 - INFO - --> edit_page.stop_video_play
+2020-04-27 17:08:49,261 - EML-AL00 - INFO - --> publish_page.click_draft_btn
+2020-04-27 17:08:49,263 - EML-AL00 - INFO - 点击存草稿按钮
+2020-04-27 17:08:49,723 - EML-AL00 - DEBUG -   <-- publish_page.click_draft_btn, Success
+2020-04-27 17:08:49,724 - EML-AL00 - DEBUG - <-- material_theme.test_04_theme_preview, Success
+
+2020-04-27 17:08:50,026 - EML-AL00 - DEBUG - --> material_text.test_01_text_display
+2020-04-27 17:08:50,027 - EML-AL00 - INFO - --> material_page.select_material_type
+2020-04-27 17:08:50,027 - EML-AL00 - INFO - 点击字幕
+2020-04-27 17:08:59,453 - EML-AL00 - DEBUG - <-- material_text.test_01_text_display, Success
+
+2020-04-27 17:08:59,454 - EML-AL00 - DEBUG - --> material_text.test_02_text_use
+2020-04-27 17:08:59,455 - EML-AL00 - INFO - --> material_page.click_material_cover
+2020-04-27 17:08:59,455 - EML-AL00 - INFO - 选择一个素材封面点击
+2020-04-27 17:08:59,867 - EML-AL00 - INFO - --> material_page.select_material_use
+2020-04-27 17:08:59,868 - EML-AL00 - INFO - 使用字幕
+2020-04-27 17:09:06,286 - EML-AL00 - INFO - --> gallery_page.is_gallery_page
+2020-04-27 17:09:06,819 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:09:07,321 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:09:09,018 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:09:10,773 - EML-AL00 - INFO - --> edit_page.is_addText_page
+2020-04-27 17:09:11,379 - EML-AL00 - INFO - 是否在添加字幕页面，status=True
+2020-04-27 17:09:11,976 - EML-AL00 - DEBUG - <-- material_text.test_02_text_use, Success
+
+2020-04-27 17:09:11,978 - EML-AL00 - DEBUG - --> material_text.test_03_text_input
+2020-04-27 17:09:11,979 - EML-AL00 - INFO - --> edit_page.text_input
+2020-04-27 17:09:11,979 - EML-AL00 - INFO - 字幕文本输入
+2020-04-27 17:09:11,980 - EML-AL00 - INFO - set fastinput ime
+2020-04-27 17:09:14,635 - EML-AL00 - DEBUG -   <-- edit_page.text_input, Success
+2020-04-27 17:09:14,636 - EML-AL00 - INFO - --> edit_page.edit_finish
+2020-04-27 17:09:17,536 - EML-AL00 - INFO - --> edit_page.edit_back
+2020-04-27 17:09:21,447 - EML-AL00 - INFO - 当前在添加文本&特效页面，需要再次返回
+2020-04-27 17:09:28,591 - EML-AL00 - DEBUG - <-- material_text.test_03_text_input, Success
+
+2020-04-27 17:09:28,592 - EML-AL00 - DEBUG - --> material_text.test_04_text_change
+2020-04-27 17:09:28,691 - EML-AL00 - INFO - --> material_page.select_material_type
+2020-04-27 17:09:28,693 - EML-AL00 - INFO - 点击字幕
+2020-04-27 17:09:31,895 - EML-AL00 - INFO - --> material_page.text_change
+2020-04-27 17:09:31,897 - EML-AL00 - INFO - 切换到动态分类
+2020-04-27 17:09:32,283 - EML-AL00 - INFO - --> material_page.select_material_use
+2020-04-27 17:09:32,284 - EML-AL00 - INFO - 使用字幕
+2020-04-27 17:09:35,641 - EML-AL00 - INFO - 当前字幕已添加，直接去使用
+2020-04-27 17:09:36,549 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:09:37,052 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:09:38,628 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:09:40,433 - EML-AL00 - INFO - --> edit_page.is_addText_page
+2020-04-27 17:09:41,851 - EML-AL00 - INFO - 是否在添加字幕页面，status=True
+2020-04-27 17:09:42,440 - EML-AL00 - INFO - --> edit_page.text_input
+2020-04-27 17:09:42,441 - EML-AL00 - INFO - 字幕文本输入
+2020-04-27 17:09:42,442 - EML-AL00 - INFO - set fastinput ime
+2020-04-27 17:09:45,527 - EML-AL00 - DEBUG -   <-- edit_page.text_input, Success
+2020-04-27 17:09:45,528 - EML-AL00 - INFO - --> edit_page.edit_finish
+2020-04-27 17:09:48,438 - EML-AL00 - INFO - --> edit_page.stop_video_play
+2020-04-27 17:09:48,822 - EML-AL00 - INFO - --> edit_page.edit_back
+2020-04-27 17:09:52,860 - EML-AL00 - INFO - 当前在添加文本&特效页面，需要再次返回
+2020-04-27 17:09:59,833 - EML-AL00 - DEBUG - <-- material_text.test_04_text_change, Success
+
+2020-04-27 17:10:00,068 - EML-AL00 - DEBUG - --> material_FX.test_01_FX_display
+2020-04-27 17:10:00,069 - EML-AL00 - INFO - --> material_page.select_material_type
+2020-04-27 17:10:00,069 - EML-AL00 - INFO - 点击特效
+2020-04-27 17:10:01,855 - EML-AL00 - INFO - swipe up
+2020-04-27 17:10:06,019 - EML-AL00 - DEBUG - <-- material_FX.test_01_FX_display, Success
+
+2020-04-27 17:10:06,021 - EML-AL00 - DEBUG - --> material_FX.test_02_FX_use
+2020-04-27 17:10:06,022 - EML-AL00 - INFO - --> material_page.click_material_cover
+2020-04-27 17:10:06,022 - EML-AL00 - INFO - 选择一个素材封面点击
+2020-04-27 17:10:06,713 - EML-AL00 - INFO - --> material_page.select_material_use
+2020-04-27 17:10:06,713 - EML-AL00 - INFO - 使用特效
+2020-04-27 17:10:12,298 - EML-AL00 - INFO - --> gallery_page.is_gallery_page
+2020-04-27 17:10:12,852 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:10:13,354 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:10:14,939 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:10:17,224 - EML-AL00 - DEBUG - <-- material_FX.test_02_FX_use, Success
+
+2020-04-27 17:10:17,225 - EML-AL00 - DEBUG - --> material_FX.test_03_FX_change
+2020-04-27 17:10:17,226 - EML-AL00 - INFO - --> material_page.FX_change
+2020-04-27 17:10:17,227 - EML-AL00 - INFO - 切换到玩法分类
+2020-04-27 17:10:24,350 - EML-AL00 - INFO - --> edit_page.edit_back
+2020-04-27 17:10:27,946 - EML-AL00 - INFO - 当前在添加文本&特效页面，需要再次返回
+2020-04-27 17:10:34,469 - EML-AL00 - DEBUG - <-- material_FX.test_03_FX_change, Success
+
+2020-04-27 17:10:34,668 - EML-AL00 - DEBUG - --> material_effectFilter.test_01_effectFilter_display
+2020-04-27 17:10:34,669 - EML-AL00 - INFO - --> material_page.select_material_type
+2020-04-27 17:10:34,669 - EML-AL00 - INFO - 点击特效滤镜
+2020-04-27 17:10:38,357 - EML-AL00 - DEBUG - <-- material_effectFilter.test_01_effectFilter_display, Success
+
+2020-04-27 17:10:38,358 - EML-AL00 - DEBUG - --> material_effectFilter.test_02_effectFilter_use
+2020-04-27 17:10:38,358 - EML-AL00 - INFO - --> material_page.click_material_cover
+2020-04-27 17:10:38,359 - EML-AL00 - INFO - 选择一个素材封面点击
+2020-04-27 17:10:38,777 - EML-AL00 - INFO - --> material_page.select_material_use
+2020-04-27 17:10:38,778 - EML-AL00 - INFO - 使用特效滤镜
+2020-04-27 17:10:42,362 - EML-AL00 - INFO - 当前特效滤镜已添加，直接去使用
+2020-04-27 17:10:43,916 - EML-AL00 - INFO - --> gallery_page.is_gallery_page
+2020-04-27 17:10:44,394 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:10:44,895 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:10:46,210 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:10:48,446 - EML-AL00 - DEBUG - <-- material_effectFilter.test_02_effectFilter_use, Success
+
+2020-04-27 17:10:48,447 - EML-AL00 - DEBUG - --> material_effectFilter.test_03_effectFilter_change
+2020-04-27 17:10:48,447 - EML-AL00 - INFO - --> material_page.common_change
+2020-04-27 17:10:48,448 - EML-AL00 - INFO - 切换到分屏分类
+2020-04-27 17:10:49,932 - EML-AL00 - INFO - --> material_page.use_all_clips
+2020-04-27 17:10:49,933 - EML-AL00 - INFO - 是否应用全部镜头
+2020-04-27 17:10:49,933 - EML-AL00 - INFO - 应用全部镜头
+2020-04-27 17:10:53,293 - EML-AL00 - INFO - --> edit_page.edit_back
+2020-04-27 17:10:59,470 - EML-AL00 - DEBUG - <-- material_effectFilter.test_03_effectFilter_change, Success
+
+2020-04-27 17:10:59,672 - EML-AL00 - DEBUG - --> material_filter.test_01_filter_display
+2020-04-27 17:10:59,673 - EML-AL00 - INFO - --> material_page.select_material_type
+2020-04-27 17:10:59,673 - EML-AL00 - INFO - 点击调色滤镜
+2020-04-27 17:11:03,475 - EML-AL00 - DEBUG - <-- material_filter.test_01_filter_display, Success
+
+2020-04-27 17:11:03,476 - EML-AL00 - DEBUG - --> material_filter.test_02_filter_use
+2020-04-27 17:11:03,477 - EML-AL00 - INFO - --> material_page.click_material_cover
+2020-04-27 17:11:03,477 - EML-AL00 - INFO - 选择一个素材封面点击
+2020-04-27 17:11:03,906 - EML-AL00 - INFO - --> material_page.select_material_use
+2020-04-27 17:11:03,906 - EML-AL00 - INFO - 使用调色滤镜
+2020-04-27 17:11:07,280 - EML-AL00 - INFO - 当前调色滤镜已添加，直接去使用
+2020-04-27 17:11:08,642 - EML-AL00 - INFO - --> gallery_page.is_gallery_page
+2020-04-27 17:11:09,169 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:11:09,670 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:11:11,098 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:11:13,272 - EML-AL00 - DEBUG - <-- material_filter.test_02_filter_use, Success
+
+2020-04-27 17:11:13,273 - EML-AL00 - DEBUG - --> material_filter.test_03_filter_change
+2020-04-27 17:11:13,274 - EML-AL00 - INFO - --> material_page.common_change
+2020-04-27 17:11:13,275 - EML-AL00 - INFO - 切换到去旅行分类
+2020-04-27 17:11:14,476 - EML-AL00 - INFO - --> material_page.use_all_clips
+2020-04-27 17:11:14,476 - EML-AL00 - INFO - 是否应用全部镜头
+2020-04-27 17:11:14,477 - EML-AL00 - INFO - 不应用全部镜头
+2020-04-27 17:11:17,384 - EML-AL00 - INFO - --> edit_page.edit_back
+2020-04-27 17:11:23,581 - EML-AL00 - DEBUG - <-- material_filter.test_03_filter_change, Success
+
+2020-04-27 17:11:23,772 - EML-AL00 - DEBUG - --> material_sticker.test_01_sticker_display
+2020-04-27 17:11:23,773 - EML-AL00 - INFO - --> material_page.select_material_type
+2020-04-27 17:11:23,774 - EML-AL00 - INFO - 点击贴纸
+2020-04-27 17:11:27,513 - EML-AL00 - DEBUG - <-- material_sticker.test_01_sticker_display, Success
+
+2020-04-27 17:11:27,514 - EML-AL00 - DEBUG - --> material_sticker.test_02_sticker_use
+2020-04-27 17:11:27,515 - EML-AL00 - INFO - --> material_page.click_material_cover
+2020-04-27 17:11:27,515 - EML-AL00 - INFO - 选择一个素材封面点击
+2020-04-27 17:11:27,877 - EML-AL00 - INFO - --> material_page.select_material_use
+2020-04-27 17:11:27,878 - EML-AL00 - INFO - 使用贴纸
+2020-04-27 17:11:31,054 - EML-AL00 - INFO - 当前贴纸已添加，直接去使用
+2020-04-27 17:11:32,875 - EML-AL00 - INFO - --> gallery_page.is_gallery_page
+2020-04-27 17:11:33,337 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:11:33,839 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:11:35,070 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:11:37,290 - EML-AL00 - DEBUG - <-- material_sticker.test_02_sticker_use, Success
+
+2020-04-27 17:11:37,290 - EML-AL00 - DEBUG - --> material_sticker.test_03_sticker_change
+2020-04-27 17:11:37,291 - EML-AL00 - INFO - --> material_page.sticker_change
+2020-04-27 17:11:37,291 - EML-AL00 - INFO - 切换到可爱分类
+2020-04-27 17:11:44,133 - EML-AL00 - INFO - --> edit_page.edit_back
+2020-04-27 17:11:47,723 - EML-AL00 - INFO - 当前在添加文本&特效页面，需要再次返回
+2020-04-27 17:11:54,218 - EML-AL00 - DEBUG - <-- material_sticker.test_03_sticker_change, Success
+
+2020-04-27 17:11:54,420 - EML-AL00 - DEBUG - --> material_transition.test_01_transition_display
+2020-04-27 17:11:54,421 - EML-AL00 - INFO - --> material_page.select_material_type
+2020-04-27 17:11:54,421 - EML-AL00 - INFO - 点击转场
+2020-04-27 17:11:58,218 - EML-AL00 - DEBUG - <-- material_transition.test_01_transition_display, Success
+
+2020-04-27 17:11:58,219 - EML-AL00 - DEBUG - --> material_transition.test_02_transition_use
+2020-04-27 17:11:58,219 - EML-AL00 - INFO - --> material_page.click_material_cover
+2020-04-27 17:11:58,219 - EML-AL00 - INFO - 选择一个素材封面点击
+2020-04-27 17:11:58,898 - EML-AL00 - INFO - --> material_page.select_material_use
+2020-04-27 17:11:58,899 - EML-AL00 - INFO - 使用转场
+2020-04-27 17:12:02,956 - EML-AL00 - INFO - 当前转场已添加，直接去使用
+2020-04-27 17:12:04,585 - EML-AL00 - INFO - --> gallery_page.is_gallery_page
+2020-04-27 17:12:05,108 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:12:05,611 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:12:06,995 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:12:10,361 - EML-AL00 - DEBUG - <-- material_transition.test_02_transition_use, Success
+
+2020-04-27 17:12:10,362 - EML-AL00 - DEBUG - --> material_transition.test_03_transition_change
+2020-04-27 17:12:10,363 - EML-AL00 - INFO - --> material_page.common_change
+2020-04-27 17:12:10,364 - EML-AL00 - INFO - 切换到经典分类
+2020-04-27 17:12:13,307 - EML-AL00 - INFO - --> material_page.use_all_clips
+2020-04-27 17:12:13,308 - EML-AL00 - INFO - 是否应用全部镜头
+2020-04-27 17:12:13,309 - EML-AL00 - INFO - 应用全部镜头
+2020-04-27 17:12:17,741 - EML-AL00 - INFO - 当前是应用转场/背景素材
+2020-04-27 17:12:22,458 - EML-AL00 - INFO - --> edit_page.edit_back
+2020-04-27 17:12:28,557 - EML-AL00 - DEBUG - <-- material_transition.test_03_transition_change, Success
+
+2020-04-27 17:12:28,799 - EML-AL00 - DEBUG - --> material_background.test_01_background_display
+2020-04-27 17:12:28,800 - EML-AL00 - INFO - --> material_page.select_material_type
+2020-04-27 17:12:28,802 - EML-AL00 - INFO - 点击背景
+2020-04-27 17:12:32,572 - EML-AL00 - DEBUG - <-- material_background.test_01_background_display, Success
+
+2020-04-27 17:12:32,573 - EML-AL00 - DEBUG - --> material_background.test_02_background_use
+2020-04-27 17:12:32,574 - EML-AL00 - INFO - --> material_page.click_material_cover
+2020-04-27 17:12:32,574 - EML-AL00 - INFO - 选择一个素材封面点击
+2020-04-27 17:12:32,957 - EML-AL00 - INFO - --> material_page.select_material_use
+2020-04-27 17:12:32,958 - EML-AL00 - INFO - 使用背景
+2020-04-27 17:12:36,408 - EML-AL00 - INFO - 当前背景已添加，直接去使用
+2020-04-27 17:12:37,743 - EML-AL00 - INFO - --> gallery_page.is_gallery_page
+2020-04-27 17:12:38,227 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:12:38,729 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:12:39,887 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:12:43,141 - EML-AL00 - DEBUG - <-- material_background.test_02_background_use, Success
+
+2020-04-27 17:12:43,142 - EML-AL00 - DEBUG - --> material_background.test_03_background_change
+2020-04-27 17:12:43,143 - EML-AL00 - INFO - --> material_page.common_change
+2020-04-27 17:12:43,143 - EML-AL00 - INFO - 切换到纯色分类
+2020-04-27 17:12:48,424 - EML-AL00 - INFO - --> material_page.use_all_clips
+2020-04-27 17:12:48,425 - EML-AL00 - INFO - 是否应用全部镜头
+2020-04-27 17:12:48,426 - EML-AL00 - INFO - 应用全部镜头
+2020-04-27 17:12:52,475 - EML-AL00 - INFO - 当前是应用转场/背景素材
+2020-04-27 17:12:57,026 - EML-AL00 - INFO - --> edit_page.edit_back
+2020-04-27 17:13:03,164 - EML-AL00 - DEBUG - <-- material_background.test_03_background_change, Success
+
+2020-04-27 17:13:03,358 - EML-AL00 - DEBUG - --> material_font.test_01_font_display
+2020-04-27 17:13:03,359 - EML-AL00 - INFO - --> material_page.select_material_type
+2020-04-27 17:13:03,359 - EML-AL00 - INFO - 点击字体
+2020-04-27 17:13:05,215 - EML-AL00 - INFO - swipe up
+2020-04-27 17:13:06,402 - EML-AL00 - INFO - swipe up
+2020-04-27 17:13:07,585 - EML-AL00 - INFO - swipe up
+2020-04-27 17:13:11,565 - EML-AL00 - DEBUG - <-- material_font.test_01_font_display, Success
+
+2020-04-27 17:13:11,566 - EML-AL00 - DEBUG - --> material_font.test_02_font_use
+2020-04-27 17:13:11,566 - EML-AL00 - INFO - --> material_page.click_material_cover
+2020-04-27 17:13:11,567 - EML-AL00 - INFO - 选择一个素材封面点击
+2020-04-27 17:13:12,300 - EML-AL00 - INFO - --> material_page.select_material_use
+2020-04-27 17:13:12,301 - EML-AL00 - INFO - 使用字体
+2020-04-27 17:13:15,713 - EML-AL00 - INFO - 当前字体已添加，直接去使用
+2020-04-27 17:13:17,048 - EML-AL00 - INFO - --> gallery_page.is_gallery_page
+2020-04-27 17:13:17,586 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:13:18,088 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:13:19,622 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:13:22,883 - EML-AL00 - DEBUG - <-- material_font.test_02_font_use, Success
+
+2020-04-27 17:13:22,884 - EML-AL00 - DEBUG - --> material_font.test_03_font_change
+2020-04-27 17:13:22,885 - EML-AL00 - INFO - --> edit_page.edit_font_enter
+2020-04-27 17:13:22,885 - EML-AL00 - INFO - --> edit_page.edit_child_tab
+2020-04-27 17:13:22,886 - EML-AL00 - INFO - 点击文字&特效
+2020-04-27 17:13:23,284 - EML-AL00 - INFO - 点击字幕
+2020-04-27 17:13:24,624 - EML-AL00 - INFO - --> edit_page.text_input
+2020-04-27 17:13:24,626 - EML-AL00 - INFO - 字幕文本输入
+2020-04-27 17:13:24,626 - EML-AL00 - INFO - set fastinput ime
+2020-04-27 17:13:26,275 - EML-AL00 - DEBUG -   <-- edit_page.text_input, Success
+2020-04-27 17:13:26,792 - EML-AL00 - INFO - --> edit_page.edit_font_use
+2020-04-27 17:13:36,724 - EML-AL00 - DEBUG - <-- material_font.test_03_font_change, Success
+
+2020-04-27 17:13:37,692 - EML-AL00 - DEBUG - --> edit_music.test_01_music_display
+2020-04-27 17:13:38,694 - EML-AL00 - INFO - --> home_Page.click_draft_btn
+2020-04-27 17:13:38,695 - EML-AL00 - INFO - 点击草稿
+2020-04-27 17:13:42,618 - EML-AL00 - INFO - --> studio_page.select_draft
+2020-04-27 17:13:42,618 - EML-AL00 - INFO - 打开一个草稿工程
+2020-04-27 17:13:43,779 - EML-AL00 - INFO - --> music_page.music_enter
+2020-04-27 17:13:43,780 - EML-AL00 - INFO - 进入音乐tab
+2020-04-27 17:13:46,589 - EML-AL00 - DEBUG -   <-- music_page.music_enter, Success
+2020-04-27 17:13:47,464 - EML-AL00 - DEBUG - <-- edit_music.test_01_music_display, Success
+
+2020-04-27 17:13:47,465 - EML-AL00 - DEBUG - --> edit_music.test_02_music_download
+2020-04-27 17:13:47,466 - EML-AL00 - INFO - --> music_page.audio_download
+2020-04-27 17:13:47,466 - EML-AL00 - INFO - 下载配乐或者音效
+2020-04-27 17:13:53,778 - EML-AL00 - DEBUG -   <-- music_page.audio_download, Success
+2020-04-27 17:13:54,692 - EML-AL00 - DEBUG - <-- edit_music.test_02_music_download, Success
+
+2020-04-27 17:13:54,694 - EML-AL00 - DEBUG - --> edit_music.test_03_music_use
+2020-04-27 17:13:54,695 - EML-AL00 - INFO - --> music_page.music_click
+2020-04-27 17:13:54,695 - EML-AL00 - INFO - 点击音乐列表第1个音乐
+2020-04-27 17:13:54,923 - EML-AL00 - INFO - 想见你想见你想见你
+2020-04-27 17:13:55,466 - EML-AL00 - INFO - --> music_page.music_add
+2020-04-27 17:14:01,869 - EML-AL00 - DEBUG - <-- edit_music.test_03_music_use, Success
+
+2020-04-27 17:14:01,870 - EML-AL00 - DEBUG - --> edit_music.test_04_sound_display
+2020-04-27 17:14:02,873 - EML-AL00 - INFO - --> music_page.music_enter
+2020-04-27 17:14:02,874 - EML-AL00 - INFO - 进入音乐tab
+2020-04-27 17:14:03,934 - EML-AL00 - DEBUG -   <-- music_page.music_enter, Success
+2020-04-27 17:14:04,819 - EML-AL00 - DEBUG - <-- edit_music.test_04_sound_display, Success
+
+2020-04-27 17:14:04,820 - EML-AL00 - DEBUG - --> edit_music.test_05_sound_download
+2020-04-27 17:14:04,821 - EML-AL00 - INFO - --> music_page.audio_download
+2020-04-27 17:14:04,821 - EML-AL00 - INFO - 下载配乐或者音效
+2020-04-27 17:14:10,764 - EML-AL00 - DEBUG -   <-- music_page.audio_download, Success
+2020-04-27 17:14:11,655 - EML-AL00 - DEBUG - <-- edit_music.test_05_sound_download, Success
+
+2020-04-27 17:14:11,655 - EML-AL00 - DEBUG - --> edit_music.test_06_sound_use
+2020-04-27 17:14:11,656 - EML-AL00 - INFO - --> music_page.audio_click
+2020-04-27 17:14:11,656 - EML-AL00 - INFO - 点击音效列表第1个音效
+2020-04-27 17:14:12,527 - EML-AL00 - INFO - --> music_page.music_add
+2020-04-27 17:14:17,918 - EML-AL00 - INFO - 当前添加的是音效
+2020-04-27 17:14:21,564 - EML-AL00 - DEBUG - <-- edit_music.test_06_sound_use, Success
+
+2020-04-27 17:14:22,580 - EML-AL00 - DEBUG - --> template_template.test_01_template_click
+2020-04-27 17:14:23,582 - EML-AL00 - INFO - --> home_Page.click_template_btn
+2020-04-27 17:14:23,583 - EML-AL00 - INFO - 点击底部拍同款按钮
+2020-04-27 17:14:27,590 - EML-AL00 - INFO - --> template_Page.click_template_tab
+2020-04-27 17:14:27,590 - EML-AL00 - INFO - 点击模版tab
+2020-04-27 17:14:29,588 - EML-AL00 - INFO - --> template_Page.click_template_cover
+2020-04-27 17:14:29,589 - EML-AL00 - INFO -  选择一个小影圈模版
+2020-04-27 17:14:30,354 - EML-AL00 - INFO - 点击第0模版封面并立即使用
+2020-04-27 17:14:34,413 - EML-AL00 - DEBUG -   <-- template_Page.click_template_cover, Success
+2020-04-27 17:14:34,413 - EML-AL00 - DEBUG - <-- template_template.test_01_template_click, Success
+
+2020-04-27 17:14:34,414 - EML-AL00 - DEBUG - --> template_template.test_02_template_use
+2020-04-27 17:14:35,415 - EML-AL00 - INFO - --> template_Page.clips_template_add
+2020-04-27 17:14:35,417 - EML-AL00 - INFO - 根据模版建议数添加镜头
+2020-04-27 17:14:38,061 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:14:38,563 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:14:39,084 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:14:43,140 - EML-AL00 - DEBUG -   <-- template_Page.clips_template_add, Success
+2020-04-27 17:14:43,142 - EML-AL00 - INFO - --> edit_page.stop_video_play
+2020-04-27 17:14:47,358 - EML-AL00 - DEBUG - <-- template_template.test_02_template_use, Success
+
+2020-04-27 17:14:47,359 - EML-AL00 - DEBUG - --> template_template.test_03_template_export
+2020-04-27 17:14:47,360 - EML-AL00 - INFO - --> publish_page.click_export_btn
+2020-04-27 17:14:47,360 - EML-AL00 - INFO - 点击保存
+2020-04-27 17:14:49,301 - EML-AL00 - INFO - --> publish_page.select_export
+2020-04-27 17:14:49,302 - EML-AL00 - INFO - 点击480P导出
+2020-04-27 17:14:51,336 - EML-AL00 - INFO - 开始导出 17:14:51
+2020-04-27 17:14:57,701 - EML-AL00 - INFO - 导出成功 17:14:57 
+2020-04-27 17:14:57,701 - EML-AL00 - INFO - 导出用时 6.365882873535156
+2020-04-27 17:14:59,702 - EML-AL00 - INFO - --> publish_page.sharePage_back
+2020-04-27 17:14:59,703 - EML-AL00 - INFO - 从导出页返回首页
+2020-04-27 17:15:00,890 - EML-AL00 - INFO - --> publish_page.click_pop_dialog
+2020-04-27 17:15:00,891 - EML-AL00 - INFO - 关闭好评弹窗
+2020-04-27 17:15:04,703 - EML-AL00 - INFO - 非首次导出，无评价弹窗
+2020-04-27 17:15:04,704 - EML-AL00 - DEBUG - <-- template_template.test_03_template_export, Success
+
+2020-04-27 17:15:05,535 - EML-AL00 - DEBUG - --> op_project.test_01_project_create
+2020-04-27 17:15:05,536 - EML-AL00 - INFO - --> home_Page.click_edit_btn
+2020-04-27 17:15:05,536 - EML-AL00 - INFO - 点击视频剪辑
+2020-04-27 17:15:10,931 - EML-AL00 - INFO - 立刻升级页面已消除
+2020-04-27 17:15:10,932 - EML-AL00 - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 17:15:11,434 - EML-AL00 - INFO - 开始添加镜头
+2020-04-27 17:15:13,247 - EML-AL00 - INFO - 点击下一步进入编辑页
+2020-04-27 17:15:14,323 - EML-AL00 - INFO - --> edit_page.stop_video_play
+2020-04-27 17:15:16,160 - EML-AL00 - DEBUG - <-- op_project.test_01_project_create, Success
+
+2020-04-27 17:15:16,161 - EML-AL00 - DEBUG - --> op_project.test_02_project_export
+2020-04-27 17:15:16,161 - EML-AL00 - INFO - --> publish_page.click_export_btn
+2020-04-27 17:15:16,162 - EML-AL00 - INFO - 点击保存
+2020-04-27 17:15:18,369 - EML-AL00 - INFO - --> publish_page.select_export
+2020-04-27 17:15:18,370 - EML-AL00 - INFO - 点击720P导出
+2020-04-27 17:15:20,364 - EML-AL00 - INFO - 开始导出 17:15:20
+2020-04-27 17:15:23,059 - EML-AL00 - INFO - 导出成功 17:15:23 
+2020-04-27 17:15:23,059 - EML-AL00 - INFO - 导出用时 2.6946709156036377
+2020-04-27 17:15:25,061 - EML-AL00 - DEBUG - <-- op_project.test_02_project_export, Success
+
+2020-04-27 17:15:27,176 - EML-AL00 - INFO - set original ime

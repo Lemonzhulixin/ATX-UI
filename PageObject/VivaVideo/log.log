@@ -1,0 +1,673 @@
+2020-04-21 17:35:26,823 - udid - INFO - --> template_Page.click_banner
+2020-04-21 17:35:26,823 - udid - INFO - 点击banner
+2020-04-21 17:35:28,058 - udid - INFO - --> template_Page.banner_back
+2020-04-21 17:35:28,059 - udid - INFO - 从banner跳转后的页面返回
+2020-04-21 17:35:29,654 - udid - ERROR - 	<-- template_Page.banner_back, Exception, Error
+2020-04-21 17:35:29,655 - udid - ERROR - Exception, 'function' object has no attribute 'exists'
+2020-04-21 17:38:37,166 - udid - INFO - --> template_Page.click_banner
+2020-04-21 17:38:37,166 - udid - INFO - 点击banner
+2020-04-21 17:38:39,522 - udid - INFO - --> template_Page.banner_back
+2020-04-21 17:38:39,523 - udid - INFO - 从banner跳转后的页面返回
+2020-04-21 17:38:41,196 - udid - ERROR - 	<-- template_Page.banner_back, Exception, Error
+2020-04-21 17:38:41,197 - udid - ERROR - Exception, unsupported operand type(s) for +: 'template_Page' and 'int'
+2020-04-21 17:42:59,097 - udid - INFO - --> template_Page.click_banner
+2020-04-21 17:42:59,099 - udid - INFO - 点击banner
+2020-04-21 17:43:00,415 - udid - INFO - --> template_Page.banner_back
+2020-04-21 17:43:00,415 - udid - INFO - 从banner跳转后的页面返回
+2020-04-21 17:43:16,974 - udid - INFO - --> template_Page.click_banner
+2020-04-21 17:43:16,974 - udid - INFO - 点击banner
+2020-04-21 17:43:17,849 - udid - INFO - --> template_Page.banner_back
+2020-04-21 17:43:17,849 - udid - INFO - 从banner跳转后的页面返回
+2020-04-21 17:44:26,098 - udid - INFO - --> template_Page.banner_back
+2020-04-21 17:44:26,099 - udid - INFO - 从banner跳转后的页面返回
+2020-04-21 17:44:26,550 - udid - INFO - 当前是跳转的素材banner,需要再次back返回
+2020-04-21 18:42:04,862 - udid - INFO - --> login_page.Start_app
+2020-04-21 18:42:04,865 - udid - INFO - 启动小影
+2020-04-21 18:42:05,574 - udid - INFO - --> login_page.click_login_btn
+2020-04-21 18:42:05,574 - udid - INFO - 点击登录tab
+2020-04-21 18:42:07,673 - udid - INFO - --> login_page.login_QQ
+2020-04-21 18:42:07,673 - udid - INFO - QQ登录
+2020-04-21 18:42:11,118 - udid - INFO - QQ授权登录
+2020-04-21 18:42:31,875 - udid - ERROR - 	<-- login_page.login_QQ, Exception, Error
+2020-04-21 18:42:31,875 - udid - ERROR - Exception, -32002 Client error: <> data: , method: None
+2020-04-21 18:49:56,375 - udid - INFO - --> login_page.Start_app
+2020-04-21 18:49:56,375 - udid - INFO - 启动小影
+2020-04-21 18:49:57,083 - udid - INFO - --> login_page.click_login_btn
+2020-04-21 18:49:57,083 - udid - INFO - 点击登录tab
+2020-04-21 18:49:59,099 - udid - INFO - --> login_page.login_QQ
+2020-04-21 18:49:59,100 - udid - INFO - QQ登录
+2020-04-21 18:49:59,769 - udid - INFO - QQ授权登录
+2020-04-21 18:49:59,770 - udid - INFO - 已经用其他方式登录过，切换到第三个按钮
+2020-04-21 18:50:20,153 - udid - ERROR - 	<-- login_page.login_QQ, Exception, Error
+2020-04-21 18:50:20,153 - udid - ERROR - Exception, ["//*[@resource-id='com.quvideo.xiaoying:id/user_no_login_list']/android.widget.LinearLayout[3]/android.widget.ImageView[1]"]
+2020-04-21 18:51:39,434 - udid - INFO - --> login_page.Start_app
+2020-04-21 18:51:39,434 - udid - INFO - 启动小影
+2020-04-21 18:51:40,087 - udid - INFO - --> login_page.click_login_btn
+2020-04-21 18:51:40,087 - udid - INFO - 点击登录tab
+2020-04-21 18:51:42,021 - udid - INFO - --> login_page.login_QQ
+2020-04-21 18:51:42,021 - udid - INFO - QQ登录
+2020-04-21 18:51:42,505 - udid - INFO - QQ授权登录
+2020-04-21 18:51:44,394 - udid - INFO - 完成QQ授权
+2020-04-21 18:51:49,206 - udid - INFO - --> login_page.is_login_success
+2020-04-21 18:51:49,206 - udid - INFO - 检查是否登录成功
+2020-04-21 18:51:52,865 - udid - INFO - 登录状态： status=True
+2020-04-21 18:51:52,865 - udid - INFO - --> login_page.logout
+2020-04-21 18:51:52,865 - udid - INFO - 点击设置按钮
+2020-04-21 18:51:53,360 - udid - INFO - 向上滑动直到出现'退出当前账号'
+2020-04-21 18:51:55,305 - udid - INFO - swipe up
+2020-04-21 18:51:56,631 - udid - INFO - swipe up
+2020-04-21 18:51:59,307 - udid - INFO - 点击'退出当前账号'
+2020-04-21 18:51:59,841 - udid - INFO - --> login_page.is_logout_success
+2020-04-21 18:51:59,842 - udid - INFO - 检查是否退出成功
+2020-04-21 18:52:03,415 - udid - INFO - 退出状态： status=True
+2020-04-21 18:52:03,416 - udid - DEBUG -   <-- login_page.is_logout_success, Success
+2020-04-21 18:52:07,407 - udid - INFO - --> login_page.Start_app
+2020-04-21 18:52:07,407 - udid - INFO - 启动小影
+2020-04-21 18:52:08,180 - udid - INFO - --> login_page.click_login_btn
+2020-04-21 18:52:08,180 - udid - INFO - 点击登录tab
+2020-04-21 18:52:10,200 - udid - INFO - --> login_page.login_QQ
+2020-04-21 18:52:10,200 - udid - INFO - QQ登录
+2020-04-21 18:52:10,728 - udid - INFO - QQ授权登录
+2020-04-21 18:52:31,820 - udid - INFO - 已经用其他方式登录过，切换到第三个按钮
+2020-04-21 18:52:34,444 - udid - INFO - 完成QQ授权
+2020-04-21 18:52:39,274 - udid - INFO - --> login_page.is_login_success
+2020-04-21 18:52:39,275 - udid - INFO - 检查是否登录成功
+2020-04-21 18:52:39,578 - udid - INFO - 登录状态： status=True
+2020-04-21 18:52:39,579 - udid - INFO - --> login_page.logout
+2020-04-21 18:52:39,579 - udid - INFO - 点击设置按钮
+2020-04-21 18:52:40,600 - udid - INFO - 向上滑动直到出现'退出当前账号'
+2020-04-21 18:52:42,292 - udid - INFO - swipe up
+2020-04-21 18:52:43,593 - udid - INFO - swipe up
+2020-04-21 18:52:44,698 - udid - INFO - 点击'退出当前账号'
+2020-04-21 18:52:45,239 - udid - INFO - --> login_page.is_logout_success
+2020-04-21 18:52:45,239 - udid - INFO - 检查是否退出成功
+2020-04-21 18:52:48,732 - udid - INFO - 退出状态： status=True
+2020-04-21 18:52:48,734 - udid - DEBUG -   <-- login_page.is_logout_success, Success
+2020-04-21 18:53:12,624 - udid - INFO - --> login_page.Start_app
+2020-04-21 18:53:12,624 - udid - INFO - 启动小影
+2020-04-21 18:53:13,344 - udid - INFO - --> login_page.click_login_btn
+2020-04-21 18:53:13,344 - udid - INFO - 点击登录tab
+2020-04-21 18:53:15,312 - udid - INFO - --> login_page.login_QQ
+2020-04-21 18:53:15,312 - udid - INFO - QQ登录
+2020-04-21 18:53:15,818 - udid - INFO - QQ授权登录
+2020-04-21 18:53:19,334 - udid - INFO - 已经用其他方式登录过，切换到第三个按钮
+2020-04-21 18:53:21,967 - udid - INFO - 完成QQ授权
+2020-04-21 18:53:26,792 - udid - INFO - --> login_page.is_login_success
+2020-04-21 18:53:26,793 - udid - INFO - 检查是否登录成功
+2020-04-21 18:53:27,099 - udid - INFO - 登录状态： status=True
+2020-04-21 18:53:27,099 - udid - INFO - --> login_page.logout
+2020-04-21 18:53:27,099 - udid - INFO - 点击设置按钮
+2020-04-21 18:53:27,921 - udid - INFO - 向上滑动直到出现'退出当前账号'
+2020-04-21 18:53:29,592 - udid - INFO - swipe up
+2020-04-21 18:53:30,889 - udid - INFO - swipe up
+2020-04-21 18:53:32,006 - udid - INFO - 点击'退出当前账号'
+2020-04-21 18:53:32,625 - udid - INFO - --> login_page.is_logout_success
+2020-04-21 18:53:32,625 - udid - INFO - 检查是否退出成功
+2020-04-21 18:53:36,089 - udid - INFO - 退出状态： status=True
+2020-04-21 18:53:36,089 - udid - DEBUG -   <-- login_page.is_logout_success, Success
+2020-04-21 18:53:41,966 - udid - INFO - --> login_page.Start_app
+2020-04-21 18:53:41,966 - udid - INFO - 启动小影
+2020-04-21 18:53:42,661 - udid - INFO - --> login_page.click_login_btn
+2020-04-21 18:53:42,661 - udid - INFO - 点击登录tab
+2020-04-21 18:53:44,572 - udid - INFO - --> login_page.login_QQ
+2020-04-21 18:53:44,572 - udid - INFO - QQ登录
+2020-04-21 18:53:45,011 - udid - INFO - QQ授权登录
+2020-04-21 18:53:48,433 - udid - INFO - 已经用其他方式登录过，切换到第三个按钮
+2020-04-21 18:53:51,023 - udid - INFO - 完成QQ授权
+2020-04-21 18:53:55,825 - udid - INFO - --> login_page.is_login_success
+2020-04-21 18:53:55,825 - udid - INFO - 检查是否登录成功
+2020-04-21 18:53:56,202 - udid - INFO - 登录状态： status=True
+2020-04-21 18:53:56,202 - udid - INFO - --> login_page.logout
+2020-04-21 18:53:56,202 - udid - INFO - 点击设置按钮
+2020-04-21 18:53:57,164 - udid - INFO - 向上滑动直到出现'退出当前账号'
+2020-04-21 18:53:58,820 - udid - INFO - swipe up
+2020-04-21 18:54:00,147 - udid - INFO - swipe up
+2020-04-21 18:54:01,306 - udid - INFO - 点击'退出当前账号'
+2020-04-21 18:54:01,797 - udid - INFO - --> login_page.is_logout_success
+2020-04-21 18:54:01,797 - udid - INFO - 检查是否退出成功
+2020-04-21 18:54:05,237 - udid - INFO - 退出状态： status=True
+2020-04-21 18:54:05,237 - udid - DEBUG -   <-- login_page.is_logout_success, Success
+2020-04-21 18:54:51,508 - udid - INFO - --> login_page.Start_app
+2020-04-21 18:54:51,509 - udid - INFO - 启动小影
+2020-04-21 18:54:52,279 - udid - INFO - --> login_page.click_login_btn
+2020-04-21 18:54:52,280 - udid - INFO - 点击登录tab
+2020-04-21 18:54:54,345 - udid - INFO - --> login_page.login_QQ
+2020-04-21 18:54:54,345 - udid - INFO - QQ登录
+2020-04-21 18:54:55,033 - udid - INFO - QQ授权登录
+2020-04-21 18:54:56,989 - udid - INFO - 完成QQ授权
+2020-04-21 18:55:01,786 - udid - INFO - --> login_page.is_login_success
+2020-04-21 18:55:01,787 - udid - INFO - 检查是否登录成功
+2020-04-21 18:55:01,928 - udid - INFO - 登录状态： status=True
+2020-04-21 18:55:01,929 - udid - INFO - --> login_page.logout
+2020-04-21 18:55:01,929 - udid - INFO - 点击设置按钮
+2020-04-21 18:55:02,809 - udid - INFO - 向上滑动直到出现'退出当前账号'
+2020-04-21 18:55:04,590 - udid - INFO - swipe up
+2020-04-21 18:55:06,008 - udid - INFO - swipe up
+2020-04-21 18:55:07,182 - udid - INFO - 点击'退出当前账号'
+2020-04-21 18:55:07,751 - udid - INFO - --> login_page.is_logout_success
+2020-04-21 18:55:07,751 - udid - INFO - 检查是否退出成功
+2020-04-21 18:55:11,386 - udid - INFO - 退出状态： status=True
+2020-04-21 18:55:11,386 - udid - DEBUG -   <-- login_page.is_logout_success, Success
+2020-04-21 18:55:19,419 - udid - INFO - --> login_page.Start_app
+2020-04-21 18:55:19,419 - udid - INFO - 启动小影
+2020-04-21 18:55:20,159 - udid - INFO - --> login_page.click_login_btn
+2020-04-21 18:55:20,159 - udid - INFO - 点击登录tab
+2020-04-21 18:55:22,123 - udid - INFO - --> login_page.login_QQ
+2020-04-21 18:55:22,123 - udid - INFO - QQ登录
+2020-04-21 18:55:22,686 - udid - INFO - QQ授权登录
+2020-04-21 18:55:25,128 - udid - INFO - 已经用其他方式登录过，切换到第三个按钮
+2020-04-21 18:55:28,965 - udid - INFO - 完成QQ授权
+2020-04-21 18:55:33,991 - udid - INFO - --> login_page.is_login_success
+2020-04-21 18:55:33,991 - udid - INFO - 检查是否登录成功
+2020-04-21 18:55:36,633 - udid - INFO - 登录状态： status=True
+2020-04-21 18:55:36,633 - udid - INFO - --> login_page.logout
+2020-04-21 18:55:36,634 - udid - INFO - 点击设置按钮
+2020-04-21 18:55:37,615 - udid - INFO - 向上滑动直到出现'退出当前账号'
+2020-04-21 18:55:39,460 - udid - INFO - swipe up
+2020-04-21 18:55:40,839 - udid - INFO - swipe up
+2020-04-21 18:55:42,045 - udid - INFO - 点击'退出当前账号'
+2020-04-21 18:55:42,525 - udid - INFO - --> login_page.is_logout_success
+2020-04-21 18:55:42,525 - udid - INFO - 检查是否退出成功
+2020-04-21 18:55:46,047 - udid - INFO - 退出状态： status=True
+2020-04-21 18:55:46,047 - udid - DEBUG -   <-- login_page.is_logout_success, Success
+2020-04-22 11:59:26,820 - udid - INFO - --> material_page.select_material
+2020-04-22 11:59:26,823 - udid - INFO - 点击主题
+2020-04-22 11:59:41,834 - udid - INFO - --> material_page.select_material
+2020-04-22 11:59:41,834 - udid - INFO - 点击特效
+2020-04-22 12:00:03,506 - udid - INFO - --> material_page.select_material
+2020-04-22 12:00:03,506 - udid - INFO - 点击转场
+2020-04-22 12:00:04,972 - udid - INFO - swipe up
+2020-04-22 12:00:05,837 - udid - INFO - swipe up
+2020-04-22 12:00:06,612 - udid - INFO - swipe up
+2020-04-23 16:09:44,166 - udid - INFO - --> material_page.select_material_type
+2020-04-23 16:09:44,169 - udid - INFO - 点击主题
+2020-04-23 16:09:45,849 - udid - INFO - --> material_page.click_material_cover
+2020-04-23 16:09:45,849 - udid - INFO - 选择一个素材封面点击
+2020-04-23 16:09:47,001 - udid - INFO - --> material_page.select_material_use
+2020-04-23 16:09:47,001 - udid - INFO - 使用None
+2020-04-23 16:09:49,984 - udid - ERROR - 	<-- material_page.select_material_use, Exception, Error
+2020-04-23 16:09:49,984 - udid - ERROR - Exception, -32001 Jsonrpc error: <java.lang.NullPointerException> data: java.lang.NullPointerException: textValue cannot be null
+	at android.support.test.uiautomator.BySelector.checkNotNull(BySelector.java:672)
+	at android.support.test.uiautomator.BySelector.text(BySelector.java:319)
+	at com.github.uiautomator.stub.Selector.toBySelector(Selector.java:273)
+	at com.github.uiautomator.stub.Selector.checkBySelectorNull(Selector.java:301)
+	at com.github.uiautomator.stub.AutomatorServiceImpl.waitForExists(AutomatorServiceImpl.java:1054)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:467)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:352)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:283)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:251)
+	at com.github.uiautomator.stub.AutomatorHttpServer.serve(AutomatorHttpServer.java:100)
+	at fi.iki.elonen.NanoHTTPD.serve(NanoHTTPD.java:2244)
+	at fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:945)
+	at fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:192)
+	at java.lang.Thread.run(Thread.java:784)
+, method: waitForExists
+2020-04-23 16:10:36,016 - udid - INFO - --> material_page.select_material_type
+2020-04-23 16:10:36,016 - udid - INFO - 点击主题
+2020-04-23 16:10:37,387 - udid - INFO - --> material_page.click_material_cover
+2020-04-23 16:10:37,387 - udid - INFO - 选择一个素材封面点击
+2020-04-23 16:10:38,549 - udid - INFO - --> material_page.select_material_use
+2020-04-23 16:10:38,549 - udid - INFO - 使用主题
+2020-04-23 16:10:42,087 - udid - INFO - swipe up
+2020-04-23 16:10:42,706 - udid - INFO - swipe up
+2020-04-23 16:10:43,299 - udid - INFO - swipe up
+2020-04-23 16:10:44,070 - udid - INFO - swipe up
+2020-04-23 16:10:44,681 - udid - INFO - swipe up
+2020-04-23 16:10:45,374 - udid - INFO - swipe up
+2020-04-23 16:10:45,968 - udid - INFO - swipe up
+2020-04-23 16:10:46,537 - udid - INFO - swipe up
+2020-04-23 16:10:47,182 - udid - INFO - swipe up
+2020-04-23 16:10:47,803 - udid - INFO - swipe up
+2020-04-23 16:10:48,349 - udid - INFO - swipe up
+2020-04-23 16:10:48,933 - udid - INFO - swipe up
+2020-04-23 16:10:49,513 - udid - INFO - swipe up
+2020-04-23 16:10:50,116 - udid - INFO - swipe up
+2020-04-23 16:10:50,728 - udid - INFO - swipe up
+2020-04-23 16:11:48,627 - udid - INFO - --> material_page.select_material_type
+2020-04-23 16:11:48,628 - udid - INFO - 点击主题
+2020-04-23 16:11:50,045 - udid - INFO - swipe up
+2020-04-23 16:11:50,365 - udid - ERROR - 	<-- material_page.select_material_type, Exception, Error
+2020-04-23 16:11:50,365 - udid - ERROR - Exception, -32001 Jsonrpc error: <java.lang.SecurityException> data: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+	at android.os.Parcel.createException(Parcel.java:1953)
+	at android.os.Parcel.readException(Parcel.java:1921)
+	at android.os.Parcel.readException(Parcel.java:1871)
+	at android.app.IUiAutomationConnection$Stub$Proxy.injectInputEvent(IUiAutomationConnection.java:292)
+	at android.app.UiAutomation.injectInputEvent(UiAutomation.java:520)
+	at android.support.test.uiautomator.InteractionController.injectEventSync(InteractionController.java:690)
+	at android.support.test.uiautomator.InteractionController.touchMove(InteractionController.java:370)
+	at android.support.test.uiautomator.InteractionController.swipe(InteractionController.java:491)
+	at android.support.test.uiautomator.InteractionController.swipe(InteractionController.java:460)
+	at android.support.test.uiautomator.UiDevice.swipe(UiDevice.java:575)
+	at com.github.uiautomator.stub.AutomatorServiceImpl.swipe(AutomatorServiceImpl.java:247)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:467)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:352)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:283)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:251)
+	at com.github.uiautomator.stub.AutomatorHttpServer.serve(AutomatorHttpServer.java:100)
+	at fi.iki.elonen.NanoHTTPD.serve(NanoHTTPD.java:2244)
+	at fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:945)
+	at fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:192)
+	at java.lang.Thread.run(Thread.java:784)
+, method: swipe
+2020-04-23 16:11:57,590 - udid - INFO - --> material_page.select_material_type
+2020-04-23 16:11:57,590 - udid - INFO - 点击主题
+2020-04-23 16:11:59,183 - udid - INFO - --> material_page.click_material_cover
+2020-04-23 16:11:59,183 - udid - INFO - 选择一个素材封面点击
+2020-04-23 16:12:00,435 - udid - INFO - --> material_page.select_material_use
+2020-04-23 16:12:00,435 - udid - INFO - 使用主题
+2020-04-23 17:18:45,529 - udid - INFO - --> material_page.get_titles
+2020-04-23 17:18:45,531 - udid - INFO - 获取当前页面title
+2020-04-23 17:19:08,885 - udid - ERROR - 	<-- material_page.get_titles, Exception, Error
+2020-04-23 17:19:08,885 - udid - ERROR - Exception, -32002 Client error: <> data: , method: None
+2020-04-23 17:21:52,168 - udid - INFO - --> material_page.get_titles
+2020-04-23 17:21:52,169 - udid - INFO - 获取当前页面title
+2020-04-23 18:02:45,087 - udid - INFO - --> login_page.Start_app
+2020-04-23 18:02:45,089 - udid - INFO - 启动小影
+2020-04-23 18:02:45,653 - udid - INFO - --> login_page.click_login_btn
+2020-04-23 18:02:45,653 - udid - INFO - 点击登录tab
+2020-04-23 18:02:47,641 - udid - INFO - --> login_page.login_QQ
+2020-04-23 18:02:47,641 - udid - INFO - QQ登录
+2020-04-23 18:02:49,065 - udid - INFO - QQ授权登录
+2020-04-23 18:02:50,230 - udid - ERROR - 	<-- login_page.login_QQ, Exception, Error
+2020-04-23 18:02:50,230 - udid - ERROR - Exception, 'UiObject' object has no attribute 'click_nowait'
+2020-04-23 18:03:13,234 - udid - INFO - --> login_page.Start_app
+2020-04-23 18:03:13,234 - udid - INFO - 启动小影
+2020-04-23 18:03:13,769 - udid - INFO - --> login_page.click_login_btn
+2020-04-23 18:03:13,769 - udid - INFO - 点击登录tab
+2020-04-23 18:03:15,647 - udid - INFO - --> login_page.login_QQ
+2020-04-23 18:03:15,647 - udid - INFO - QQ登录
+2020-04-23 18:03:17,080 - udid - INFO - QQ授权登录
+2020-04-23 18:03:18,902 - udid - INFO - 完成QQ授权
+2020-04-23 18:30:25,075 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:30:25,077 - udid - INFO - 进入素材中心
+2020-04-23 18:30:33,435 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:30:33,435 - udid - INFO - 进入素材中心
+2020-04-23 18:38:51,010 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:38:51,011 - udid - INFO - 进入素材中心
+2020-04-23 18:51:49,033 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:51:49,034 - udid - INFO - 进入素材中心
+2020-04-23 18:51:56,537 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:51:56,538 - udid - INFO - 进入素材中心
+2020-04-23 18:52:04,559 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:52:04,559 - udid - INFO - 进入素材中心
+2020-04-23 18:53:00,461 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:53:00,463 - udid - INFO - 进入素材中心
+2020-04-23 18:53:36,861 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:53:36,861 - udid - INFO - 进入素材中心
+2020-04-23 18:53:55,129 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:53:55,130 - udid - INFO - 进入素材中心
+2020-04-23 18:54:21,369 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:54:21,370 - udid - INFO - 进入素材中心
+2020-04-23 18:54:28,135 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:54:28,136 - udid - INFO - 进入素材中心
+2020-04-23 18:54:58,243 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 18:54:58,243 - udid - INFO - 进入素材中心
+2020-04-23 19:00:42,351 - udid - INFO - --> material_page.enter_material_page
+2020-04-23 19:00:42,353 - udid - INFO - 进入素材中心
+2020-04-24 14:13:35,450 - udid - INFO - --> material_page.select_material_type
+2020-04-24 14:13:35,462 - udid - INFO - 点击转场
+2020-04-24 14:13:37,304 - udid - INFO - swipe up
+2020-04-24 14:13:38,237 - udid - INFO - swipe up
+2020-04-24 16:42:18,005 - udid - INFO - --> material_page.click_material_cover
+2020-04-24 16:42:18,007 - udid - INFO - 选择一个素材封面点击
+2020-04-24 16:42:18,973 - udid - INFO - --> material_page.select_material_use
+2020-04-24 16:42:18,973 - udid - INFO - 使用主题
+2020-04-24 18:04:56,548 - udid - INFO - --> music_page.music_enter
+2020-04-24 18:04:56,550 - udid - INFO - 进入音乐tab
+2020-04-24 18:05:17,622 - udid - ERROR -   <-- music_page.music_enter, Exception, Error
+2020-04-24 18:05:17,624 - udid - ERROR - Exception, -32002 Client error: <> data: , method: None
+2020-04-24 18:16:58,269 - udid - INFO - --> music_page.music_enter
+2020-04-24 18:16:58,271 - udid - INFO - 进入音乐tab
+2020-04-24 18:16:59,084 - udid - DEBUG -   <-- music_page.music_enter, Success
+2020-04-24 18:16:59,084 - udid - INFO - --> music_page.audio_download
+2020-04-24 18:16:59,084 - udid - INFO - 下载配乐或者音效
+2020-04-24 18:17:06,620 - udid - DEBUG -   <-- music_page.audio_download, Success
+2020-04-24 18:17:06,622 - udid - INFO - --> music_page.music_click
+2020-04-24 18:17:06,623 - udid - INFO - 点击音乐列表第1个音乐
+2020-04-24 18:17:06,783 - udid - INFO - 想见你想见你想见你
+2020-04-24 18:17:07,306 - udid - INFO - --> music_page.music_add
+2020-04-26 09:58:51,543 - udid - INFO - --> music_page.music_enter
+2020-04-26 09:58:51,545 - udid - INFO - 进入音乐tab
+2020-04-26 09:58:59,775 - udid - DEBUG -   <-- music_page.music_enter, Success
+2020-04-26 09:58:59,775 - udid - INFO - --> music_page.audio_download
+2020-04-26 09:58:59,775 - udid - INFO - 下载配乐或者音效
+2020-04-26 09:59:07,159 - udid - DEBUG -   <-- music_page.audio_download, Success
+2020-04-26 09:59:07,160 - udid - INFO - --> music_page.audio_click
+2020-04-26 09:59:07,160 - udid - INFO - 点击音效列表第1个音效
+2020-04-26 09:59:07,344 - udid - INFO - 98k枪声特效
+2020-04-26 09:59:08,161 - udid - INFO - --> music_page.music_add
+2020-04-26 09:59:13,462 - udid - INFO - 当前添加的是音效
+2020-04-26 10:16:20,185 - udid - INFO - --> music_page.music_enter
+2020-04-26 10:16:20,189 - udid - INFO - 进入音乐tab
+2020-04-26 10:16:21,482 - udid - DEBUG -   <-- music_page.music_enter, Success
+2020-04-26 10:16:21,482 - udid - INFO - --> music_page.audio_download
+2020-04-26 10:16:21,482 - udid - INFO - 下载配乐或者音效
+2020-04-26 10:16:27,466 - udid - DEBUG -   <-- music_page.audio_download, Success
+2020-04-26 10:16:27,466 - udid - INFO - --> music_page.audio_click
+2020-04-26 10:16:27,466 - udid - INFO - 点击音效列表第1个音效
+2020-04-26 10:16:27,643 - udid - INFO - 
+2020-04-26 10:16:28,313 - udid - INFO - --> music_page.music_add
+2020-04-26 10:16:33,416 - udid - INFO - 当前添加的是音效
+2020-04-26 10:16:49,108 - udid - INFO - --> music_page.music_enter
+2020-04-26 10:16:49,108 - udid - INFO - 进入音乐tab
+2020-04-26 10:16:50,027 - udid - DEBUG -   <-- music_page.music_enter, Success
+2020-04-26 10:16:50,028 - udid - INFO - --> music_page.audio_download
+2020-04-26 10:16:50,028 - udid - INFO - 下载配乐或者音效
+2020-04-26 10:16:55,996 - udid - DEBUG -   <-- music_page.audio_download, Success
+2020-04-26 10:16:55,996 - udid - INFO - --> music_page.audio_click
+2020-04-26 10:16:55,997 - udid - INFO - 点击音效列表第1个音效
+2020-04-26 10:16:56,132 - udid - INFO - 
+2020-04-26 10:16:56,605 - udid - INFO - --> music_page.music_add
+2020-04-26 10:17:01,770 - udid - INFO - 当前添加的是音效
+2020-04-26 10:17:33,070 - udid - INFO - --> music_page.music_enter
+2020-04-26 10:17:33,070 - udid - INFO - 进入音乐tab
+2020-04-26 10:17:33,947 - udid - DEBUG -   <-- music_page.music_enter, Success
+2020-04-26 10:17:33,947 - udid - INFO - --> music_page.audio_download
+2020-04-26 10:17:33,947 - udid - INFO - 下载配乐或者音效
+2020-04-26 10:17:42,232 - udid - DEBUG -   <-- music_page.audio_download, Success
+2020-04-26 10:17:42,233 - udid - INFO - --> music_page.audio_click
+2020-04-26 10:17:42,233 - udid - INFO - 点击音效列表第1个音效
+2020-04-26 10:17:42,338 - udid - INFO - 
+2020-04-26 10:17:42,833 - udid - INFO - --> music_page.music_add
+2020-04-26 10:17:47,991 - udid - INFO - 当前添加的是音效
+2020-04-26 10:18:08,858 - udid - ERROR - 	<-- music_page.music_add, Exception, Error
+2020-04-26 10:18:08,858 - udid - ERROR - Exception, -32002 Client error: <> data: , method: None
+2020-04-26 10:25:12,186 - udid - INFO - --> music_page.music_enter
+2020-04-26 10:25:12,187 - udid - INFO - 进入音乐tab
+2020-04-26 10:25:13,131 - udid - DEBUG -   <-- music_page.music_enter, Success
+2020-04-26 10:25:13,131 - udid - INFO - --> music_page.audio_download
+2020-04-26 10:25:13,131 - udid - INFO - 下载配乐或者音效
+2020-04-26 10:25:22,678 - udid - DEBUG -   <-- music_page.audio_download, Success
+2020-04-26 10:25:22,678 - udid - INFO - --> music_page.audio_click
+2020-04-26 10:25:22,679 - udid - INFO - 点击音效列表第1个音效
+2020-04-26 10:25:22,679 - udid - ERROR - 	<-- music_page.audio_click, Exception, Error
+2020-04-26 10:25:22,679 - udid - ERROR - Exception, not all arguments converted during string formatting
+2020-04-26 10:26:14,629 - udid - INFO - --> music_page.music_enter
+2020-04-26 10:26:14,630 - udid - INFO - 进入音乐tab
+2020-04-26 10:26:15,505 - udid - DEBUG -   <-- music_page.music_enter, Success
+2020-04-26 10:26:15,505 - udid - INFO - --> music_page.audio_download
+2020-04-26 10:26:15,505 - udid - INFO - 下载配乐或者音效
+2020-04-26 10:26:21,403 - udid - DEBUG -   <-- music_page.audio_download, Success
+2020-04-26 10:26:21,404 - udid - INFO - --> music_page.audio_click
+2020-04-26 10:26:21,404 - udid - INFO - 点击音效列表第1个音效
+2020-04-26 10:26:21,405 - udid - ERROR - 	<-- music_page.audio_click, Exception, Error
+2020-04-26 10:26:21,405 - udid - ERROR - Exception, not all arguments converted during string formatting
+2020-04-26 10:29:01,927 - udid - INFO - --> music_page.music_enter
+2020-04-26 10:29:01,928 - udid - INFO - 进入音乐tab
+2020-04-26 10:29:02,781 - udid - DEBUG -   <-- music_page.music_enter, Success
+2020-04-26 10:29:02,781 - udid - INFO - --> music_page.audio_download
+2020-04-26 10:29:02,781 - udid - INFO - 下载配乐或者音效
+2020-04-26 10:29:08,689 - udid - DEBUG -   <-- music_page.audio_download, Success
+2020-04-26 10:29:08,689 - udid - INFO - --> music_page.audio_click
+2020-04-26 10:29:08,690 - udid - ERROR - 	<-- music_page.audio_click, Exception, Error
+2020-04-26 10:29:08,690 - udid - ERROR - Exception, audio_click() got an unexpected keyword argument 'inst'
+2020-04-26 10:29:20,794 - udid - INFO - --> music_page.music_enter
+2020-04-26 10:29:20,795 - udid - INFO - 进入音乐tab
+2020-04-26 10:29:22,535 - udid - DEBUG -   <-- music_page.music_enter, Success
+2020-04-26 10:29:22,535 - udid - INFO - --> music_page.audio_download
+2020-04-26 10:29:22,536 - udid - INFO - 下载配乐或者音效
+2020-04-26 10:29:24,653 - udid - ERROR -   <-- music_page.audio_download, Exception, Error
+2020-04-26 10:29:24,654 - udid - ERROR - Exception, -32001 Jsonrpc error: <android.support.test.uiautomator.UiObjectNotFoundException> data: UiSelector[RESOURCE_ID=com.quvideo.xiaoying:id/music_item_download], method: objInfo
+2020-04-26 10:29:40,311 - udid - INFO - --> music_page.music_enter
+2020-04-26 10:29:40,311 - udid - INFO - 进入音乐tab
+2020-04-26 10:29:41,225 - udid - DEBUG -   <-- music_page.music_enter, Success
+2020-04-26 10:29:41,225 - udid - INFO - --> music_page.audio_download
+2020-04-26 10:29:41,225 - udid - INFO - 下载配乐或者音效
+2020-04-26 10:29:47,107 - udid - DEBUG -   <-- music_page.audio_download, Success
+2020-04-26 10:29:47,108 - udid - INFO - --> music_page.audio_click
+2020-04-26 10:29:47,108 - udid - INFO - 点击音效列表第1个音效
+2020-04-26 10:29:47,648 - udid - INFO - 
+2020-04-26 10:29:48,324 - udid - INFO - --> music_page.music_add
+2020-04-26 10:29:53,432 - udid - INFO - 当前添加的是音效
+2020-04-26 10:30:50,164 - udid - INFO - --> music_page.music_enter
+2020-04-26 10:30:50,164 - udid - INFO - 进入音乐tab
+2020-04-26 10:30:51,065 - udid - DEBUG -   <-- music_page.music_enter, Success
+2020-04-26 10:30:51,066 - udid - INFO - --> music_page.audio_download
+2020-04-26 10:30:51,066 - udid - INFO - 下载配乐或者音效
+2020-04-26 10:30:59,354 - udid - DEBUG -   <-- music_page.audio_download, Success
+2020-04-26 10:30:59,354 - udid - INFO - --> music_page.audio_click
+2020-04-26 10:30:59,354 - udid - INFO - 点击音效列表第1个音效
+2020-04-26 10:31:00,356 - udid - INFO - --> music_page.music_add
+2020-04-26 10:31:05,761 - udid - INFO - 当前添加的是音效
+2020-04-26 13:39:35,189 - udid - INFO - --> login_page.Start_app
+2020-04-26 13:39:35,197 - udid - INFO - 启动小影
+2020-04-26 13:39:35,838 - udid - INFO - --> login_page.click_login_btn
+2020-04-26 13:39:35,838 - udid - INFO - 点击登录tab
+2020-04-26 13:39:37,974 - udid - INFO - --> login_page.login_QQ
+2020-04-26 13:39:37,974 - udid - INFO - QQ登录
+2020-04-26 13:39:39,571 - udid - INFO - QQ授权登录
+2020-04-26 13:39:43,325 - udid - INFO - 完成QQ授权
+2020-04-26 14:32:37,984 - udid - INFO - --> template_Page.swipe_template_banner
+2020-04-26 14:32:37,987 - udid - INFO - 向左滑动banner
+2020-04-26 14:32:37,987 - udid - INFO - swipe left
+2020-04-26 14:32:45,679 - udid - INFO - --> template_Page.swipe_template_banner
+2020-04-26 14:32:45,680 - udid - INFO - 向左滑动banner
+2020-04-26 14:32:45,680 - udid - INFO - swipe left
+2020-04-26 14:55:46,167 - udid - INFO - --> template_Page.swipe_template_banner
+2020-04-26 14:55:46,169 - udid - INFO - 向左滑动banner
+2020-04-26 14:55:46,170 - udid - INFO - swipe left
+2020-04-26 14:56:04,924 - udid - INFO - --> template_Page.click_template_banner
+2020-04-26 14:56:04,924 - udid - INFO - 点击模版tab下banner
+2020-04-26 14:56:05,793 - udid - INFO - --> template_Page.banner_back
+2020-04-26 14:56:05,794 - udid - INFO - 从banner跳转后的页面返回
+2020-04-26 14:56:07,653 - udid - INFO - 当前是跳转的素材banner,需要再次back返回
+2020-04-26 14:56:07,745 - udid - INFO - --> template_Page.swipe_template_banner
+2020-04-26 14:56:07,745 - udid - INFO - 向左滑动banner
+2020-04-26 14:56:07,746 - udid - INFO - swipe left
+2020-04-26 14:56:10,223 - udid - INFO - --> template_Page.click_template_banner
+2020-04-26 14:56:10,224 - udid - INFO - 点击模版tab下banner
+2020-04-26 14:56:11,329 - udid - INFO - --> template_Page.banner_back
+2020-04-26 14:56:11,329 - udid - INFO - 从banner跳转后的页面返回
+2020-04-26 15:57:47,563 - udid - INFO - --> login_page.Start_app
+2020-04-26 15:57:47,565 - udid - INFO - 启动小影
+2020-04-26 15:57:48,143 - udid - INFO - --> login_page.click_login_btn
+2020-04-26 15:57:48,144 - udid - INFO - 点击登录tab
+2020-04-26 15:57:50,248 - udid - INFO - --> login_page.login_QQ
+2020-04-26 15:57:50,248 - udid - INFO - QQ登录
+2020-04-26 15:57:51,660 - udid - ERROR - 	<-- login_page.login_QQ, Exception, Error
+2020-04-26 15:57:51,660 - udid - ERROR - Exception, Unfinished literal
+2020-04-26 15:58:41,729 - udid - INFO - --> login_page.Start_app
+2020-04-26 15:58:41,729 - udid - INFO - 启动小影
+2020-04-26 15:58:42,355 - udid - INFO - --> login_page.click_login_btn
+2020-04-26 15:58:42,355 - udid - INFO - 点击登录tab
+2020-04-26 15:58:44,351 - udid - INFO - --> login_page.login_QQ
+2020-04-26 15:58:44,351 - udid - INFO - QQ登录
+2020-04-26 15:58:45,936 - udid - INFO - QQ授权登录
+2020-04-26 15:58:56,097 - udid - INFO - 已经用其他方式登录过，切换到第三个按钮
+2020-04-26 15:58:58,597 - udid - INFO - 完成QQ授权
+2020-04-26 16:15:54,195 - udid - INFO - --> login_page.Start_app
+2020-04-26 16:15:54,195 - udid - INFO - 启动小影
+2020-04-26 16:15:54,961 - udid - INFO - --> login_page.click_login_btn
+2020-04-26 16:15:54,961 - udid - INFO - 点击登录tab
+2020-04-26 16:15:57,110 - udid - INFO - --> login_page.login_QQ
+2020-04-26 16:15:57,110 - udid - INFO - QQ登录
+2020-04-26 16:15:58,726 - udid - INFO - QQ授权登录
+2020-04-26 16:16:01,278 - udid - INFO - 完成QQ授权
+2020-04-26 17:26:46,630 - udid - INFO - --> template_Page.click_template_use
+2020-04-26 17:26:46,635 - udid - INFO - 使用模版
+2020-04-26 17:26:46,635 - udid - INFO - --> template_Page.click_template_cover
+2020-04-26 17:26:46,636 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:27:04,605 - udid - INFO - --> template_Page.click_template_use
+2020-04-26 17:27:04,606 - udid - INFO - 使用模版
+2020-04-26 17:27:04,606 - udid - INFO - --> template_Page.click_template_cover
+2020-04-26 17:27:04,606 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:27:28,799 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 17:27:28,999 - udid - INFO - swipe up
+2020-04-26 17:27:29,649 - udid - INFO - --> template_Page.click_template_cover
+2020-04-26 17:27:29,650 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:27:53,620 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 17:27:53,850 - udid - INFO - swipe up
+2020-04-26 17:27:54,553 - udid - INFO - --> template_Page.click_template_cover
+2020-04-26 17:27:54,554 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:27:59,873 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 17:28:00,023 - udid - INFO - swipe up
+2020-04-26 17:28:01,011 - udid - INFO - --> template_Page.click_template_cover
+2020-04-26 17:28:01,011 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:28:25,487 - udid - INFO - --> template_Page.click_template_cover
+2020-04-26 17:28:25,487 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:33:33,211 - udid - INFO - --> template_Page.click_template_cover
+2020-04-26 17:33:33,212 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:41:29,583 - udid - INFO - --> template_Page.click_template_use
+2020-04-26 17:41:29,583 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:41:31,067 - udid - INFO - 使用模版
+2020-04-26 17:41:59,828 - udid - INFO - --> template_Page.click_template_use
+2020-04-26 17:41:59,829 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:42:01,587 - udid - INFO - 使用模版
+2020-04-26 17:42:09,335 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 17:43:07,667 - udid - INFO - --> template_Page.click_template_use
+2020-04-26 17:43:07,667 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:43:09,404 - udid - INFO - 使用模版
+2020-04-26 17:43:17,596 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 17:43:26,032 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 17:43:35,803 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 17:43:48,427 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 17:44:10,313 - udid - ERROR - 	<-- template_Page.click_template_use, Exception, Error
+2020-04-26 17:44:10,313 - udid - ERROR - Exception, -32002 Client error: <> data: , method: None
+2020-04-26 17:48:59,829 - udid - INFO - --> template_Page.click_template_use
+2020-04-26 17:48:59,830 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:49:00,714 - udid - INFO - 使用模版
+2020-04-26 17:51:22,278 - udid - INFO - --> template_Page.click_template_use
+2020-04-26 17:51:22,279 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:51:23,187 - udid - INFO - 点击模版封面并立即使用
+2020-04-26 17:51:39,604 - udid - INFO - --> template_Page.click_template_use
+2020-04-26 17:51:39,604 - udid - INFO -  选择一个小影圈模版
+2020-04-26 17:51:40,873 - udid - INFO - 点击模版封面并立即使用
+2020-04-26 17:51:49,962 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 17:51:50,151 - udid - INFO - 点击模版封面并立即使用
+2020-04-26 18:07:56,655 - udid - INFO - --> template_Page.click_template_cover
+2020-04-26 18:07:56,657 - udid - INFO -  选择一个小影圈模版
+2020-04-26 18:07:58,721 - udid - INFO - 点击模版封面并立即使用
+2020-04-26 18:08:06,175 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 18:08:06,324 - udid - INFO - 点击模版封面并立即使用
+2020-04-26 18:08:15,250 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 18:08:15,430 - udid - INFO - 点击模版封面并立即使用
+2020-04-26 18:08:25,384 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 18:08:25,675 - udid - INFO - 点击模版封面并立即使用
+2020-04-26 18:08:37,955 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-26 18:08:38,149 - udid - INFO - 点击模版封面并立即使用
+2020-04-26 18:14:22,755 - udid - INFO - --> template_Page.demo
+2020-04-26 18:14:22,756 - udid - INFO - swipe up
+2020-04-26 18:14:26,526 - udid - DEBUG -   <-- template_Page.demo, Success
+2020-04-26 18:14:54,599 - udid - INFO - --> template_Page.demo
+2020-04-26 18:14:54,599 - udid - INFO - swipe up
+2020-04-26 18:14:56,257 - udid - DEBUG -   <-- template_Page.demo, Success
+2020-04-27 09:54:12,663 - udid - INFO - --> template_Page.demo
+2020-04-27 09:54:12,665 - udid - INFO - swipe up
+2020-04-27 09:54:32,506 - udid - DEBUG -   <-- template_Page.demo, Success
+2020-04-27 09:55:04,692 - udid - INFO - --> template_Page.demo
+2020-04-27 09:55:04,692 - udid - INFO - swipe up
+2020-04-27 09:55:05,067 - udid - DEBUG -   <-- template_Page.demo, Success
+2020-04-27 09:55:13,911 - udid - INFO - --> template_Page.demo
+2020-04-27 09:55:13,911 - udid - INFO - swipe up
+2020-04-27 09:55:14,623 - udid - DEBUG -   <-- template_Page.demo, Success
+2020-04-27 10:05:13,422 - udid - INFO - --> template_Page.click_template_cover
+2020-04-27 10:05:13,422 - udid - INFO -  选择一个小影圈模版
+2020-04-27 10:05:15,448 - udid - INFO - 点击第0模版封面并立即使用
+2020-04-27 10:05:23,258 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-27 10:05:23,368 - udid - INFO - 点击第1模版封面并立即使用
+2020-04-27 10:05:34,899 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-27 10:05:35,006 - udid - INFO - 点击第2模版封面并立即使用
+2020-04-27 10:05:46,192 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-27 10:05:46,316 - udid - INFO - 点击第3模版封面并立即使用
+2020-04-27 10:05:57,904 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-27 10:05:58,051 - udid - INFO - 点击第4模版封面并立即使用
+2020-04-27 10:06:19,740 - udid - ERROR - 	<-- template_Page.click_template_cover, Exception, Error
+2020-04-27 10:06:19,740 - udid - ERROR - Exception, -32002 Client error: <> data: , method: None
+2020-04-27 10:12:37,402 - udid - INFO - --> template_Page.click_template_cover
+2020-04-27 10:12:37,402 - udid - INFO -  选择一个小影圈模版
+2020-04-27 10:12:38,908 - udid - ERROR - 	<-- template_Page.click_template_cover, Exception, Error
+2020-04-27 10:12:38,908 - udid - ERROR - Exception, must be str, not int
+2020-04-27 10:13:03,741 - udid - INFO - --> template_Page.click_template_cover
+2020-04-27 10:13:03,741 - udid - INFO -  选择一个小影圈模版
+2020-04-27 10:13:05,018 - udid - INFO - 点击第0模版封面并立即使用
+2020-04-27 10:13:11,884 - udid - INFO - 当前是VIP模版，返回并重新选择
+2020-04-27 10:13:12,060 - udid - INFO - 点击第1模版封面并立即使用
+2020-04-27 10:21:31,810 - udid - INFO - --> template_Page.clips_template_add
+2020-04-27 10:21:32,216 - udid - DEBUG -   <-- template_Page.clips_template_add, Success
+2020-04-27 10:22:48,103 - udid - INFO - --> template_Page.clips_template_add
+2020-04-27 10:22:48,986 - udid - DEBUG -   <-- template_Page.clips_template_add, Success
+2020-04-27 10:24:39,067 - udid - INFO - --> template_Page.clips_template_add
+2020-04-27 10:24:39,755 - udid - DEBUG -   <-- template_Page.clips_template_add, Success
+2020-04-27 10:29:04,644 - udid - INFO - --> template_Page.clips_template_add
+2020-04-27 10:29:05,475 - udid - DEBUG -   <-- template_Page.clips_template_add, Success
+2020-04-27 10:30:36,680 - udid - INFO - --> template_Page.clips_template_add
+2020-04-27 10:30:37,509 - udid - DEBUG -   <-- template_Page.clips_template_add, Success
+2020-04-27 10:30:47,789 - udid - INFO - --> template_Page.clips_template_add
+2020-04-27 10:30:48,432 - udid - DEBUG -   <-- template_Page.clips_template_add, Success
+2020-04-27 10:33:48,658 - udid - INFO - --> template_Page.clips_template_add
+2020-04-27 10:33:49,249 - udid - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 10:33:49,754 - udid - INFO - 添加镜头
+2020-04-27 10:33:49,755 - udid - ERROR - 	<-- gallery_page.gallery_clip_add, Exception, Error
+2020-04-27 10:33:49,756 - udid - ERROR - Exception, 'str' object cannot be interpreted as an integer
+2020-04-27 10:33:49,757 - udid - ERROR -   <-- template_Page.clips_template_add, Exception, Error
+2020-04-27 10:33:49,757 - udid - ERROR - Exception, 'str' object cannot be interpreted as an integer
+2020-04-27 10:34:04,542 - udid - INFO - --> template_Page.clips_template_add
+2020-04-27 10:34:05,327 - udid - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 10:34:05,828 - udid - INFO - 添加镜头
+2020-04-27 10:34:06,367 - udid - INFO - 点击下一步进入编辑页
+2020-04-27 10:34:07,175 - udid - DEBUG -   <-- template_Page.clips_template_add, Success
+2020-04-27 10:34:50,591 - udid - INFO - --> template_Page.clips_template_add
+2020-04-27 10:34:51,109 - udid - INFO - --> gallery_page.gallery_clip_add
+2020-04-27 10:34:51,612 - udid - INFO - 添加镜头
+2020-04-27 10:34:55,073 - udid - INFO - 点击下一步进入编辑页
+2020-04-27 10:34:56,029 - udid - DEBUG -   <-- template_Page.clips_template_add, Success
+2020-04-27 16:17:07,612 - udid - INFO - --> material_page.click_material_cover
+2020-04-27 16:17:07,615 - udid - INFO - 选择一个素材封面点击
+2020-04-27 16:17:11,426 - udid - INFO - 当前是字体选择页面
+2020-04-27 16:17:11,795 - udid - INFO - --> material_page.theme_text
+2020-04-27 16:17:15,675 - udid - INFO - swipe left
+2020-04-27 16:17:21,228 - udid - INFO - swipe left
+2020-04-27 16:17:27,023 - udid - INFO - swipe left
+2020-04-27 16:17:30,952 - udid - INFO - swipe left
+2020-04-27 16:17:35,180 - udid - INFO - swipe left
+2020-04-27 16:17:39,340 - udid - INFO - swipe left
+2020-04-27 16:17:43,447 - udid - INFO - swipe left
+2020-04-27 16:17:48,081 - udid - INFO - swipe left
+2020-04-27 16:17:52,621 - udid - INFO - swipe left
+2020-04-27 16:17:56,926 - udid - INFO - swipe left
+2020-04-27 16:18:02,805 - udid - INFO - swipe left
+2020-04-27 16:18:06,903 - udid - INFO - swipe left
+2020-04-27 16:18:10,765 - udid - INFO - swipe left
+2020-04-27 16:18:14,623 - udid - INFO - swipe left
+2020-04-27 16:18:18,473 - udid - INFO - swipe left
+2020-04-27 16:18:22,321 - udid - INFO - swipe left
+2020-04-27 16:18:26,169 - udid - INFO - swipe left
+2020-04-27 16:18:30,096 - udid - INFO - swipe left
+2020-04-27 16:18:34,173 - udid - INFO - swipe left
+2020-04-27 16:18:38,018 - udid - INFO - swipe left
+2020-04-27 16:18:41,879 - udid - INFO - swipe left
+2020-04-27 16:18:45,752 - udid - INFO - swipe left
+2020-04-27 16:18:49,612 - udid - INFO - swipe left
+2020-04-27 16:18:53,458 - udid - INFO - swipe left
+2020-04-27 16:18:57,336 - udid - INFO - swipe left
+2020-04-27 16:19:01,222 - udid - INFO - swipe left
+2020-04-27 16:19:05,085 - udid - INFO - swipe left
+2020-04-27 16:19:08,965 - udid - INFO - swipe left
+2020-04-27 16:19:12,827 - udid - INFO - swipe left
+2020-04-27 16:19:16,670 - udid - INFO - swipe left
+2020-04-27 16:19:20,543 - udid - INFO - swipe left
+2020-04-27 16:19:24,497 - udid - INFO - swipe left
+2020-04-27 16:19:28,576 - udid - INFO - swipe left
+2020-04-27 16:19:54,104 - udid - ERROR - 	<-- material_page.theme_text, Exception, Error
+2020-04-27 16:19:54,105 - udid - ERROR - Exception, -32001 Jsonrpc error: <java.lang.IllegalStateException> data: java.lang.IllegalStateException: UiAutomation not connected!
+	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:1116)
+	at android.app.UiAutomation.injectInputEvent(UiAutomation.java:513)
+	at android.support.test.uiautomator.InteractionController.injectEventSync(InteractionController.java:690)
+	at android.support.test.uiautomator.InteractionController.touchDown(InteractionController.java:351)
+	at android.support.test.uiautomator.InteractionController.swipe(InteractionController.java:487)
+	at android.support.test.uiautomator.InteractionController.swipe(InteractionController.java:460)
+	at android.support.test.uiautomator.UiDevice.swipe(UiDevice.java:575)
+	at com.github.uiautomator.stub.AutomatorServiceImpl.swipe(AutomatorServiceImpl.java:247)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:467)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:352)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:283)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:251)
+	at com.github.uiautomator.stub.AutomatorHttpServer.serve(AutomatorHttpServer.java:100)
+	at fi.iki.elonen.NanoHTTPD.serve(NanoHTTPD.java:2244)
+	at fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:945)
+	at fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:192)
+	at java.lang.Thread.run(Thread.java:784)
+, method: swipe
