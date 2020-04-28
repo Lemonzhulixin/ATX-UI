@@ -8,13 +8,14 @@
 
 
 import sys
-# sys.path.append(os.path.split(os.path.split(os.path.abspath(''))[0])[0])
 sys.path.append('..')
 from Public.Drivers import Drivers
 from Public.Report import *
-import unittest
 from TestCase.VivaVideo.test_01_Init import test_init
-from TestCase.VivaVideo.test_04_Material import test_01_theme, test_12_export
+from Public.Decorator import *
+import unittest
+from Public.Test_data import *
+
 
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
@@ -27,13 +28,14 @@ if __name__ == '__main__':
     backup_report(date)
 
     suite = unittest.TestSuite()
-    suite.addTest(test_01_theme.material_theme('test_01_theme_display'))
-    suite.addTest(test_01_theme.material_theme('test_02_theme_use'))
-    suite.addTest(test_01_theme.material_theme('test_03_theme_material'))
-    suite.addTest(test_01_theme.material_theme('test_04_theme_preview'))
+    suite.addTest(test_init.app_init('test_01_install'))
+    suite.addTest(test_init.app_init('test_02_start'))
+    suite.addTest(test_init.app_init('test_03_camera'))
 
-    # apk = get_apk(url='http://www1.xiaoying.co/Android/vivavideo/install.html',keyword='XiaoYing_V8')
-    # download_apk(apk)
+    # 从install页面下载最新版本的测试app
+    apk = get_apk(url='http://www1.xiaoying.co/Android/vivavideo/install.html', keyword='XiaoYing_V8')
+    download_apk(apk)
 
-    apk ='apk/XiaoYing_V8.1.5_1-Abroad-Bv8.1.5-xiaoyingtest-20200420_145037.apk'
+    # 调试用
+    # apk ='apk/XiaoYing_V8.1.5_1-Abroad-Bv8.1.5-xiaoyingtest-20200420_145037.apk'
     Drivers().run(suite, apk, upload=False)

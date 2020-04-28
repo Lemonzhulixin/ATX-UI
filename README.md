@@ -1,2 +1,2 @@
 # ATX-UI
-new project
+new project atx 

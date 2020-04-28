@@ -6,9 +6,9 @@ from Public.Decorator import *
 import unittest
 from Public.Test_data import *
 
-# apk = get_apk(url='http://www1.xiaoying.co/Android/vivavideo/install.html',keyword='XiaoYing_V8')
+apk = get_apk(url='http://www1.xiaoying.co/Android/vivavideo/install.html',keyword='XiaoYing_V8')
 # download_apk(apk)
-apk ='/Users/zhulixin/Desktop/UI/TestCase/VivaVideo/apk/XiaoYing_V8.1.5_1-Abroad-Bv8.1.5-xiaoyingtest-20200420_145037.apk'
+# apk ='/Users/zhulixin/Desktop/UI/TestCase/VivaVideo/apk/XiaoYing_V8.1.5_1-Abroad-Bv8.1.5-xiaoyingtest-20200420_145037.apk'
 pkg_name = ReadConfig().get_pkg_name(key='XY')
 
 class app_init(unittest.TestCase, BasePage):
@@ -28,13 +28,13 @@ class app_init(unittest.TestCase, BasePage):
     def test_01_install(self):
         '''小影apk安装'''
         self.d.app_stop(pkg_name)
-        print(get_apk_info(apk))
+        # print(get_apk_info(apk))
         self.d.app_uninstall(pkg_name)
-        self.local_install(apk)
-        #从install页面下载
-        # print(get_apk_info(apk['apk_path']))
-        # self.d.app_uninstall(pkg_name)
-        # self.local_install(apk['apk_path'])
+        # self.local_install(apk)
+        # 从install页面下载
+        print(get_apk_info(apk['apk_path']))
+        self.d.app_uninstall(pkg_name)
+        self.local_install(apk['apk_path'])
 
     @testcase
     def test_02_start(self):
