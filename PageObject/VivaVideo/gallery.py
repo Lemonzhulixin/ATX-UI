@@ -3,7 +3,7 @@
 
 
 from Public.Decorator import *
-from PageObject.VivaVideo import edit, home
+from PageObject.VivaVideo import edit, home, publish
 from Public.Log import Log
 log = Log()
 
@@ -299,13 +299,52 @@ class picture_view_page(BasePage):
         self.d(resourceId="com.quvideo.xiaoying:id/btn_confirm").click()
         time.sleep(1)
 
+class im_ex_count(BasePage):
+    @teststep
+    def addClipTime(self, number):
+        self.d.app_start("com.quvideo.xiaoying")
+        home.home_Page().click_edit_btn()
+        time.sleep(0.5)
+        log.i('开始添加镜头')
+        for i in range(number):
+            el = self.d(resourceId='com.quvideo.xiaoying:id/iv_cover')
+            el[i].click()
+        log.i('点击下一步进入编辑页')
+        self.d(resourceId="com.quvideo.xiaoying:id/btn_next", text='下一步').click()
+        next_start = time.time()
+        if edit.edit_page().is_preview_page():
+            next_end = time.time()
+            time_im = str(round(next_end - next_start, 2))
+        else:
+            raise Exception('导入失败')
+        return time_im
+
+    @teststep
+    def exportTime(self, timeout=600):
+        publish.publish_page().click_export_btn()
+        publish.publish_page().select_export(inst=2)
+        export_start = time.time()
+        self.d(resourceId="com.quvideo.xiaoying:id/tvProgress").wait(timeout=2)
+        if self.d(resourceId="com.quvideo.xiaoying:id/tvProgress").wait_gone(timeout=timeout):
+            export_end = time.time()
+            time_ex = str(round(export_end - export_start, 2))
+        else:
+            raise Exception('导出等待超时,导出时长超过%s秒' % timeout)
+        self.d.app_stop("com.quvideo.xiaoying")
+        return time_ex
+
+    @teststep
+    def clearData(self):
+        cmd_clear = 'adb shell rm -r /sdcard/DCIM/XiaoYing'
+        os.popen(cmd_clear)
+
 
 if __name__ == '__main__':
     from Public.Log import Log
 
     Log().set_logger('udid', './log.log')
     BasePage().set_driver(None)
-    # gallery_page().select_gallery(1)
-    # gallery_page().select_gallery_tab(1)
-    # print(gallery_page().is_gallery_page())
-    gallery_page().gallery_clip_add(3)
+    t1 = im_ex_count().addClipTime(2)
+    t2 = im_ex_count().exportTime(600)
+    print(t1,t2)
+    im_ex_count().clearData()
