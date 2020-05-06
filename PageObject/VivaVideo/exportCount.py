@@ -15,7 +15,7 @@ import xlwt
 class im_ex_count(BasePage):
 
     @teststep
-    def addClipTime(self, number):
+    def importTime(self, number):
         self.d.app_start("com.quvideo.xiaoying")
         home.home_Page().click_edit_btn()
         time.sleep(0.5)
@@ -25,10 +25,10 @@ class im_ex_count(BasePage):
             el[i].click()
         log.i('点击下一步进入编辑页')
         self.d(resourceId="com.quvideo.xiaoying:id/btn_next", text='下一步').click()
-        next_start = time.time()
+        import_start = time.time()
         if edit.edit_page().is_preview_page():
-            next_end = time.time()
-            time_im = str(round(next_end - next_start, 2))
+            import_end = time.time()
+            time_im = str(round(import_end - import_start, 2))
         else:
             raise Exception('导入失败')
         return time_im
@@ -66,7 +66,7 @@ class im_ex_count(BasePage):
         """
         :param clips:添加的镜头个数
         :param inst: 1, 2, 3, 4, 其他，1对应480P
-        :param pix: 480, 720, 1080, -GIF, 4k
+        :param pix: 480, 720, 1080, GIF, 4k
         :param times:导出次数
         :return:
         """
@@ -76,7 +76,7 @@ class im_ex_count(BasePage):
         t2_list = []
         #导出次数
         for i in range(times):
-            t1 = im_ex_count().addClipTime(clips)
+            t1 = im_ex_count().importTime(clips)
             # 导出尺寸: 1-480 2-720 3-1080  4-GIF 其他 4k
             t2 = im_ex_count().exportTime(inst=inst, timeout=600)
             t1_list.append(t1)
@@ -111,3 +111,5 @@ if __name__ == '__main__':
     BasePage().set_driver(None)
     im_ex_count().export_test(clips=2, inst=1, pix='480P', times=2)
     im_ex_count().export_test(clips=2, inst=2, pix='720P', times=2)
+    # im_ex_count().export_test(clips=2, inst=3, pix='1080P', times=2)
+    # im_ex_count().export_test(clips=2, inst=0, pix='4K', times=2)
