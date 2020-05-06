@@ -11,8 +11,6 @@ from PageObject.VivaVideo import edit, home, publish
 from Public.Log import Log
 log = Log()
 import xlwt
-import xlrd
-import datetime
 
 class im_ex_count(BasePage):
 
@@ -64,40 +62,52 @@ class im_ex_count(BasePage):
         cmd_clear = 'adb -s ' + dev + ' shell rm -r /sdcard/DCIM/XiaoYing'
         os.popen(cmd_clear)
 
+    def export_test(self, clips = 2, inst = 2, pix = '720P', times = 1):
+        """
+        :param clips:添加的镜头个数
+        :param inst: 1, 2, 3, 4, 其他，1对应480P
+        :param pix: 480, 720, 1080, -GIF, 4k
+        :param times:导出次数
+        :return:
+        """
+        # 获取设备信息
+        dev = im_ex_count().getDevice()
+        t1_list = []
+        t2_list = []
+        #导出次数
+        for i in range(times):
+            t1 = im_ex_count().addClipTime(clips)
+            # 导出尺寸: 1-480 2-720 3-1080  4-GIF 其他 4k
+            t2 = im_ex_count().exportTime(inst=inst, timeout=600)
+            t1_list.append(t1)
+            t2_list.append(t2)
+            # 清除导出视频
+            im_ex_count().clearData()
+        print(t1_list, t2_list)
+
+        wb = xlwt.Workbook()  # 创建excel文件
+        ws = wb.add_sheet(dev)  # 创建sheet
+
+        # 表格列值
+        ws.write(0, 0, "设备")
+        ws.write(0, 1, "导入时长")
+        ws.write(0, 2, "导出尺寸")
+        ws.write(0, 3, "导出时长")
+
+        for i in range(len(t1_list)):
+            ws.write(i + 1, 0, dev)
+            ws.write(i + 1, 1, t1_list[i])
+            ws.write(i + 1, 2, pix)
+            ws.write(i + 1, 3, t2_list[i])
+
+        # 保存Excel文件
+        # report_time = time.strftime("%H%M%S", time.localtime())
+        wb.save('Result_' + pix + '.xls')
+
 
 if __name__ == '__main__':
     from Public.Log import Log
     Log().set_logger('udid', './log.log')
     BasePage().set_driver(None)
-    #获取设备信息
-    dev =im_ex_count().getDevice()
-    t1_list = []
-    t2_list =[]
-    for i in range(2):
-        t1 = im_ex_count().addClipTime(2)
-        #导出尺寸: 1-480 2-720 3-1080  4-GIF 其他 4k
-        t2 = im_ex_count().exportTime(inst=2,timeout=600)
-        t1_list.append(t1)
-        t2_list.append(t2)
-        #清除导出视频
-        im_ex_count().clearData()
-    print(t1_list,t2_list)
-
-    wb = xlwt.Workbook()  # 创建excel文件
-    ws = wb.add_sheet(dev)  # 创建sheet
-
-    # 表格列值
-    ws.write(0, 0, "设备")
-    ws.write(0, 1, "导入时长")
-    ws.write(0, 2, "导出尺寸")
-    ws.write(0, 3, "导出时长")
-
-    for i in range(len(t1_list)):
-        ws.write(i + 1, 0, dev)
-        ws.write(i + 1, 1, t1_list[i])
-        ws.write(i + 1, 2, '720P')
-        ws.write(i + 1, 3, t2_list[i])
-
-    # 保存Excel文件
-    report_time = time.strftime("%H%M%S",time.localtime())
-    wb.save('Result_' + report_time + '.xls' )
+    im_ex_count().export_test(clips=2, inst=1, pix='480P', times=2)
+    im_ex_count().export_test(clips=2, inst=2, pix='720P', times=2)
