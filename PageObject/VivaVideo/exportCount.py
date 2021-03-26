@@ -64,10 +64,10 @@ class im_ex_count(BasePage):
 
     def export_test(self, clips = 2, inst = 2, pix = '720P', times = 1):
         """
-        :param clips:添加的镜头个数
+        :param clips: 添加的镜头个数
         :param inst: 1, 2, 3, 4, 其他，1对应480P
         :param pix: 480, 720, 1080, GIF, 4k
-        :param times:导出次数
+        :param times: 导出次数
         :return:
         """
         # 获取设备信息
