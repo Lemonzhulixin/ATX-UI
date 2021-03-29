@@ -515,7 +515,7 @@ class fx_page(BasePage):
     @teststep
     def select_fx_icon(self, inst=1):
         log.i('点击第列表第 %s字幕/贴纸' % inst)
-        self.d(resourceId="com.quvideo.xiaoying:id/recycler_category_group_detail"). \
+        self.d(resourceId="com.quvideo.xiaoying:id/recycler_category_group_detail").\
             child(className="android.widget.RelativeLayout", instance=inst - 1).click()
         time.sleep(5)
 

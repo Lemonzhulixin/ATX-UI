@@ -41,7 +41,7 @@ class app_init(unittest.TestCase, BasePage):
     def test_02_start(self):
         """启动并消除各种弹窗"""
         time.sleep(1)
-        self.watch_device('允许|始终允许|取消|立即删除|同意并开始使用')   #华为删除app后弹出清理弹窗
+        self.watch_device('允许|始终允许|取消|立即删除|同意并开始使用|继续使用')   #华为删除app后弹出清理弹窗
         self.d.app_start(pkg_name)
         home.home_Page().close_popup()
         self.screenshot()

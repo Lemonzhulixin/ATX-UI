@@ -1,0 +1,6 @@
+{
+  "test_13_clip_add.py::add_clip::test_01_add": true,
+  "test_13_clip_add.py::testcase": true,
+  "test_13_clip_add.py::teststep": true,
+  "test_13_clip_add.py::teststeps": true
+}

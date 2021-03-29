@@ -50,3 +50,279 @@
 2020-05-06 17:46:24,954 - udid - INFO - 点击保存
 2020-05-06 17:46:25,411 - udid - INFO - --> publish_page.select_export
 2020-05-06 17:46:25,411 - udid - INFO - 点击720P导出
+2021-03-29 10:18:55,361 - udid - INFO - --> im_ex_count.importTime
+2021-03-29 10:18:56,270 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 10:18:56,270 - udid - INFO - 点击视频剪辑
+2021-03-29 10:19:07,227 - udid - INFO - 立刻升级页面已消除
+2021-03-29 10:19:07,729 - udid - INFO - 开始添加镜头
+2021-03-29 10:19:09,670 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 10:19:10,445 - udid - INFO - --> edit_page.is_preview_page
+2021-03-29 10:19:12,558 - udid - INFO - 是否在预览页面，status=True
+2021-03-29 10:19:12,558 - udid - INFO - --> im_ex_count.exportTime
+2021-03-29 10:19:12,558 - udid - INFO - --> publish_page.click_export_btn
+2021-03-29 10:19:12,558 - udid - INFO - 点击保存
+2021-03-29 10:19:12,804 - udid - INFO - --> publish_page.select_export
+2021-03-29 10:19:12,804 - udid - INFO - 点击480P导出
+2021-03-29 10:19:47,310 - udid - INFO - --> im_ex_count.importTime
+2021-03-29 10:19:48,106 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 10:19:48,106 - udid - INFO - 点击视频剪辑
+2021-03-29 10:20:01,628 - udid - INFO - 立刻升级页面已消除
+2021-03-29 10:20:02,131 - udid - INFO - 开始添加镜头
+2021-03-29 10:20:04,209 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 10:20:04,924 - udid - INFO - --> edit_page.is_preview_page
+2021-03-29 10:20:07,237 - udid - INFO - 是否在预览页面，status=True
+2021-03-29 10:20:07,237 - udid - INFO - --> im_ex_count.exportTime
+2021-03-29 10:20:07,237 - udid - INFO - --> publish_page.click_export_btn
+2021-03-29 10:20:07,237 - udid - INFO - 点击保存
+2021-03-29 10:20:07,541 - udid - INFO - --> publish_page.select_export
+2021-03-29 10:20:07,541 - udid - INFO - 点击480P导出
+2021-03-29 10:20:41,026 - udid - INFO - --> im_ex_count.importTime
+2021-03-29 10:20:41,718 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 10:20:41,718 - udid - INFO - 点击视频剪辑
+2021-03-29 10:20:51,239 - udid - INFO - 立刻升级页面已消除
+2021-03-29 10:20:51,740 - udid - INFO - 开始添加镜头
+2021-03-29 10:20:53,975 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 10:20:54,637 - udid - INFO - --> edit_page.is_preview_page
+2021-03-29 10:20:56,748 - udid - INFO - 是否在预览页面，status=True
+2021-03-29 10:20:56,748 - udid - INFO - --> im_ex_count.exportTime
+2021-03-29 10:20:56,748 - udid - INFO - --> publish_page.click_export_btn
+2021-03-29 10:20:56,748 - udid - INFO - 点击保存
+2021-03-29 10:20:57,118 - udid - INFO - --> publish_page.select_export
+2021-03-29 10:20:57,118 - udid - INFO - 点击720P导出
+2021-03-29 10:21:02,970 - udid - INFO - --> im_ex_count.importTime
+2021-03-29 10:21:03,656 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 10:21:03,656 - udid - INFO - 点击视频剪辑
+2021-03-29 10:21:13,320 - udid - INFO - 立刻升级页面已消除
+2021-03-29 10:21:13,820 - udid - INFO - 开始添加镜头
+2021-03-29 10:21:15,110 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 10:21:15,881 - udid - INFO - --> edit_page.is_preview_page
+2021-03-29 10:21:18,040 - udid - INFO - 是否在预览页面，status=True
+2021-03-29 10:21:18,040 - udid - INFO - --> im_ex_count.exportTime
+2021-03-29 10:21:18,041 - udid - INFO - --> publish_page.click_export_btn
+2021-03-29 10:21:18,041 - udid - INFO - 点击保存
+2021-03-29 10:21:18,464 - udid - INFO - --> publish_page.select_export
+2021-03-29 10:21:18,464 - udid - INFO - 点击720P导出
+2021-03-29 10:32:05,201 - udid - INFO - --> add_Test.addClip
+2021-03-29 10:32:05,201 - udid - ERROR - 	<-- add_Test.addClip, Exception, Error
+2021-03-29 10:32:05,201 - udid - ERROR - Exception, addClip() missing 1 required positional argument: 'number'
+2021-03-29 10:34:33,231 - udid - INFO - --> add_Test.addClip
+2021-03-29 10:34:33,231 - udid - ERROR - 	<-- add_Test.addClip, Exception, Error
+2021-03-29 10:34:33,231 - udid - ERROR - Exception, addClip() missing 1 required positional argument: 'self'
+2021-03-29 10:36:40,909 - udid - INFO - --> add_Test.addClip
+2021-03-29 10:36:41,592 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 10:36:41,592 - udid - INFO - 点击视频剪辑
+2021-03-29 10:36:50,706 - udid - INFO - 立刻升级页面已消除
+2021-03-29 10:36:51,211 - udid - INFO - 开始添加镜头
+2021-03-29 10:36:52,759 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 10:36:58,433 - udid - ERROR - 	<-- add_Test.addClip, Exception, Error
+2021-03-29 10:36:58,433 - udid - ERROR - Exception, 镜头添加失败
+2021-03-29 10:37:13,780 - udid - INFO - --> add_Test.addClip
+2021-03-29 10:37:13,780 - udid - ERROR - 	<-- add_Test.addClip, Exception, Error
+2021-03-29 10:37:13,780 - udid - ERROR - Exception, addClip() missing 1 required positional argument: 'self'
+2021-03-29 10:45:15,786 - udid - INFO - --> add_Test.addClip
+2021-03-29 10:45:16,739 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 10:45:16,739 - udid - INFO - 点击视频剪辑
+2021-03-29 10:45:22,905 - udid - INFO - 立刻升级页面已消除
+2021-03-29 10:45:23,406 - udid - INFO - 开始添加镜头
+2021-03-29 10:45:24,060 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 10:45:29,612 - udid - ERROR - 	<-- add_Test.addClip, Exception, Error
+2021-03-29 10:45:29,612 - udid - ERROR - Exception, 镜头添加失败
+2021-03-29 10:55:58,445 - udid - INFO - --> add_Test.addClip
+2021-03-29 10:55:59,023 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 10:55:59,023 - udid - INFO - 点击视频剪辑
+2021-03-29 10:56:00,908 - udid - INFO - 立刻升级页面已消除
+2021-03-29 10:56:01,412 - udid - INFO - 开始添加镜头
+2021-03-29 10:56:01,841 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 10:56:02,531 - udid - INFO - 点击添加按钮
+2021-03-29 10:56:05,139 - udid - INFO - 开始添加新镜头
+2021-03-29 10:56:07,941 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 10:56:09,092 - udid - ERROR - 	<-- add_Test.addClip, Exception, Error
+2021-03-29 10:56:09,092 - udid - ERROR - Exception, 镜头添加失败
+2021-03-29 10:56:16,010 - udid - INFO - --> add_Test.addClip
+2021-03-29 10:56:16,737 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 10:56:16,737 - udid - INFO - 点击视频剪辑
+2021-03-29 10:56:24,259 - udid - INFO - 立刻升级页面已消除
+2021-03-29 10:56:24,762 - udid - INFO - 开始添加镜头
+2021-03-29 10:56:35,905 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 10:56:36,502 - udid - INFO - 点击添加按钮
+2021-03-29 10:56:38,884 - udid - INFO - 开始添加新镜头
+2021-03-29 10:56:41,397 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 10:56:42,936 - udid - ERROR - 	<-- add_Test.addClip, Exception, Error
+2021-03-29 10:56:42,936 - udid - ERROR - Exception, 镜头添加失败
+2021-03-29 10:59:56,420 - udid - INFO - --> add_Test.addClip
+2021-03-29 10:59:56,420 - udid - ERROR - 	<-- add_Test.addClip, Exception, Error
+2021-03-29 10:59:56,421 - udid - ERROR - Exception, app_start() missing 1 required positional argument: 'package_name'
+2021-03-29 11:00:18,118 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:00:18,220 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:00:18,220 - udid - INFO - 点击视频剪辑
+2021-03-29 11:00:20,097 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:00:20,601 - udid - INFO - 开始添加镜头
+2021-03-29 11:00:21,155 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:00:21,771 - udid - INFO - 点击添加按钮
+2021-03-29 11:00:24,143 - udid - INFO - 开始添加新镜头
+2021-03-29 11:00:26,647 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:00:28,207 - udid - ERROR - 	<-- add_Test.addClip, Exception, Error
+2021-03-29 11:00:28,208 - udid - ERROR - Exception, 镜头添加失败
+2021-03-29 11:30:14,829 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:30:14,930 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:30:14,930 - udid - INFO - 点击视频剪辑
+2021-03-29 11:30:19,002 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:30:19,507 - udid - INFO - 开始添加镜头
+2021-03-29 11:30:21,010 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:30:21,572 - udid - INFO - 点击添加按钮
+2021-03-29 11:30:23,983 - udid - INFO - 开始添加新镜头
+2021-03-29 11:30:26,452 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:30:27,547 - udid - INFO - 镜头添加成功
+2021-03-29 11:31:08,136 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:31:08,247 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:31:08,247 - udid - INFO - 点击视频剪辑
+2021-03-29 11:31:10,136 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:31:10,640 - udid - INFO - 开始添加镜头
+2021-03-29 11:31:11,176 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:31:11,648 - udid - INFO - 点击添加按钮
+2021-03-29 11:31:13,889 - udid - INFO - 开始添加新镜头
+2021-03-29 11:31:16,077 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:31:17,068 - udid - INFO - 镜头添加成功
+2021-03-29 11:31:17,248 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:31:17,403 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:31:17,403 - udid - INFO - 点击视频剪辑
+2021-03-29 11:31:19,267 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:31:19,772 - udid - INFO - 开始添加镜头
+2021-03-29 11:31:20,565 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:31:21,159 - udid - INFO - 点击添加按钮
+2021-03-29 11:31:23,358 - udid - INFO - 开始添加新镜头
+2021-03-29 11:31:25,687 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:31:27,139 - udid - INFO - 镜头添加成功
+2021-03-29 11:31:27,330 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:31:27,430 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:31:27,430 - udid - INFO - 点击视频剪辑
+2021-03-29 11:31:29,340 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:31:29,844 - udid - INFO - 开始添加镜头
+2021-03-29 11:31:30,553 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:31:31,283 - udid - INFO - 点击添加按钮
+2021-03-29 11:31:33,698 - udid - INFO - 开始添加新镜头
+2021-03-29 11:31:36,037 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:31:37,444 - udid - INFO - 镜头添加成功
+2021-03-29 11:31:37,689 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:31:37,875 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:31:37,875 - udid - INFO - 点击视频剪辑
+2021-03-29 11:31:39,730 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:31:40,231 - udid - INFO - 开始添加镜头
+2021-03-29 11:31:40,930 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:31:41,661 - udid - INFO - 点击添加按钮
+2021-03-29 11:31:44,028 - udid - INFO - 开始添加新镜头
+2021-03-29 11:31:46,441 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:31:47,524 - udid - INFO - 镜头添加成功
+2021-03-29 11:31:47,765 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:31:47,854 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:31:47,855 - udid - INFO - 点击视频剪辑
+2021-03-29 11:31:50,885 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:31:51,388 - udid - INFO - 开始添加镜头
+2021-03-29 11:31:52,990 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:31:53,623 - udid - INFO - 点击添加按钮
+2021-03-29 11:31:56,051 - udid - INFO - 开始添加新镜头
+2021-03-29 11:31:58,456 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:31:59,886 - udid - INFO - 镜头添加成功
+2021-03-29 11:32:00,095 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:32:00,277 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:32:00,278 - udid - INFO - 点击视频剪辑
+2021-03-29 11:32:02,149 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:32:02,650 - udid - INFO - 开始添加镜头
+2021-03-29 11:32:03,350 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:35:35,462 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:35:35,554 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:35:35,555 - udid - INFO - 点击视频剪辑
+2021-03-29 11:35:37,421 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:35:37,926 - udid - INFO - 开始添加镜头
+2021-03-29 11:35:38,412 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:35:38,960 - udid - INFO - 点击添加按钮
+2021-03-29 11:35:41,230 - udid - INFO - 开始添加新镜头
+2021-03-29 11:35:43,839 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:36:03,888 - udid - ERROR - 	<-- add_Test.addClip, Exception, Error
+2021-03-29 11:36:03,889 - udid - ERROR - Exception, 镜头添加失败
+2021-03-29 11:40:44,462 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:40:44,565 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:40:44,565 - udid - INFO - 点击视频剪辑
+2021-03-29 11:40:46,432 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:40:46,937 - udid - INFO - 开始添加镜头
+2021-03-29 11:40:47,397 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:40:47,986 - udid - INFO - 点击添加按钮
+2021-03-29 11:40:50,392 - udid - INFO - 开始添加新镜头
+2021-03-29 11:40:52,946 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:40:54,346 - udid - INFO - 镜头添加成功
+2021-03-29 11:40:54,538 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:40:54,676 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:40:54,676 - udid - INFO - 点击视频剪辑
+2021-03-29 11:40:56,558 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:40:57,062 - udid - INFO - 开始添加镜头
+2021-03-29 11:40:57,730 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:40:58,307 - udid - INFO - 点击添加按钮
+2021-03-29 11:41:00,713 - udid - INFO - 开始添加新镜头
+2021-03-29 11:41:02,984 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:41:04,315 - udid - INFO - 镜头添加成功
+2021-03-29 11:41:04,584 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:41:04,714 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:41:04,714 - udid - INFO - 点击视频剪辑
+2021-03-29 11:41:07,792 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:41:08,295 - udid - INFO - 开始添加镜头
+2021-03-29 11:41:09,886 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:41:10,450 - udid - INFO - 点击添加按钮
+2021-03-29 11:41:12,829 - udid - INFO - 开始添加新镜头
+2021-03-29 11:41:15,059 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:41:15,972 - udid - INFO - 镜头添加成功
+2021-03-29 11:41:16,196 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:41:16,296 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:41:16,296 - udid - INFO - 点击视频剪辑
+2021-03-29 11:41:19,327 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:41:19,828 - udid - INFO - 开始添加镜头
+2021-03-29 11:41:21,498 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:41:22,054 - udid - INFO - 点击添加按钮
+2021-03-29 11:41:24,498 - udid - INFO - 开始添加新镜头
+2021-03-29 11:41:26,948 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:41:27,714 - udid - ERROR - 	<-- add_Test.addClip, Exception, Error
+2021-03-29 11:41:27,714 - udid - ERROR - Exception, 镜头添加失败
+2021-03-29 11:41:43,354 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:41:43,445 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:41:43,445 - udid - INFO - 点击视频剪辑
+2021-03-29 11:41:45,271 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:41:45,774 - udid - INFO - 开始添加镜头
+2021-03-29 11:41:46,829 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:41:47,369 - udid - INFO - 点击添加按钮
+2021-03-29 11:41:49,846 - udid - INFO - 开始添加新镜头
+2021-03-29 11:41:52,333 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:42:08,994 - udid - INFO - 镜头添加成功
+2021-03-29 11:42:09,205 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:42:09,329 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:42:09,329 - udid - INFO - 点击视频剪辑
+2021-03-29 11:42:12,392 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:42:12,895 - udid - INFO - 开始添加镜头
+2021-03-29 11:42:15,218 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:42:15,824 - udid - INFO - 点击添加按钮
+2021-03-29 11:42:18,170 - udid - INFO - 开始添加新镜头
+2021-03-29 11:42:20,693 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:42:21,759 - udid - INFO - 镜头添加成功
+2021-03-29 11:42:21,963 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:42:22,066 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:42:22,066 - udid - INFO - 点击视频剪辑
+2021-03-29 11:42:23,990 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:42:24,494 - udid - INFO - 开始添加镜头
+2021-03-29 11:42:25,862 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:42:26,466 - udid - INFO - 点击添加按钮
+2021-03-29 11:42:28,834 - udid - INFO - 开始添加新镜头
+2021-03-29 11:42:31,194 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:42:38,079 - udid - INFO - 镜头添加成功
+2021-03-29 11:42:38,286 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:42:38,379 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:42:38,379 - udid - INFO - 点击视频剪辑
+2021-03-29 11:42:40,312 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:42:40,816 - udid - INFO - 开始添加镜头
+2021-03-29 11:42:42,162 - udid - INFO - 点击下一步进入编辑页
+2021-03-29 11:42:42,808 - udid - INFO - 点击添加按钮
+2021-03-29 11:42:45,199 - udid - INFO - 开始添加新镜头
+2021-03-29 11:42:47,520 - udid - INFO - 判断添加镜头是否成功
+2021-03-29 11:42:48,524 - udid - INFO - 镜头添加成功
+2021-03-29 11:42:48,702 - udid - INFO - --> add_Test.addClip
+2021-03-29 11:42:48,820 - udid - INFO - --> home_Page.click_edit_btn
+2021-03-29 11:42:48,820 - udid - INFO - 点击视频剪辑
+2021-03-29 11:42:51,895 - udid - INFO - 立刻升级页面已消除
+2021-03-29 11:42:52,400 - udid - INFO - 开始添加镜头

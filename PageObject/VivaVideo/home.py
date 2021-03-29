@@ -67,7 +67,7 @@ class home_Page(BasePage):
     @teststep
     def click_edit_btn(self):
         log.i('点击视频剪辑')
-        self.d(resourceId="com.quvideo.xiaoying:id/iv_edit_home8_cut").click()
+        self.d(resourceId="com.quvideo.xiaoying:id/tv_edit_icon_home8_cut").click()
         try:
             self.d(resourceId="com.quvideo.xiaoying:id/imgbtn_help_exit").implicitly_wait(3).click()
         except:
