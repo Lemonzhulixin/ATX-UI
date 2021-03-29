@@ -7,7 +7,7 @@
 #  @File: exportCount.py
 
 from Public.Decorator import *
-from PageObject.VivaVideo import edit, home, publish
+from PageObject.VivaVideo import home
 from Public.Log import Log
 log = Log()
 

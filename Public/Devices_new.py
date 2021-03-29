@@ -159,14 +159,10 @@ def check_alive(device):
 
 
 
-
-# if __name__ == '__main__':
-    # devices_ip = get_devices()
-
-    # devices = connect_devices()
-    # devices = get_online_devices()
-    # print(devices_ip)
-    #
+if __name__ == '__main__':
+    devices = connect_devices()
+    # devices =get_devices()
+    print(devices)
     # pool = Pool(processes=len(devices_ip))
     # tmp_list = []
     # for run in devices_ip:

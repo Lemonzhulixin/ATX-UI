@@ -60,7 +60,7 @@ class ReadConfig:
             value = self.cf.get("APP", "pkg_name_TP")
             return value
         elif key == 'VC':
-            value = self.cf.get("APP", "pkg_name_TP")
+            value = self.cf.get("APP", "pkg_name_VC")
             return value
 
     def get_APP_URL(self):
