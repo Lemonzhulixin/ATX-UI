@@ -1,3 +1,10 @@
+#  -*- coding: utf-8 -*-
+#  /usr/local/bin/python
+#  @Time: 2021/7/28 11:43
+#  @Author: lemon_zhulixin
+#  @Email: zhulixin@live.com
+#  @Project: ATX-UI
+#  @File: 1.py.py
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 

@@ -112,7 +112,7 @@ class home_Page(BasePage):
     @teststep
     def click_sec_Mosaic(self):
         log.i('点击次要功能位马赛克')
-        self.d(resourceId="com.quvideo.xiaoying:id/ll_eight2_home8_cut").click()\
+        self.d(resourceId="com.quvideo.xiaoying:id/ll_eight2_home8_cut").click()
 
     @teststep
     def click_sec_FAQ(self):

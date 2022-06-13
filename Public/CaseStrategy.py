@@ -13,7 +13,7 @@ import unittest
 class CaseStrategy:
     def __init__(self):
         self.suite_path = 'TestCase'
-        self.case_path = 'VivaVideo'
+        self.case_path = 'RyDemo'
         self.case_pattern = 'test*.py'
 
     def _collect_cases(self, cases, top_dir=None):

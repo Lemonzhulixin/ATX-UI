@@ -53,6 +53,9 @@ class ReadConfig:
         if key == 'XY':
            value = self.cf.get("APP", "pkg_name_XY")
            return value
+        elif key == 'RY':
+            value = self.cf.get("APP","pkg_name_RY")
+            return value
         elif key =='SP':
            value = self.cf.get("APP", "pkg_name_SP")
            return value
@@ -70,6 +73,9 @@ class ReadConfig:
     def get_APP_URL_KEY(self, key):
         if key == 'XY':
             value = self.cf.get("APP", "KEY_XY")
+            return value
+        elif key == 'RY':
+            value = self.cf.get("APP", "KEY_RY")
             return value
         elif key =='SP':
              value = self.cf.get("APP", "KEY_SP")
